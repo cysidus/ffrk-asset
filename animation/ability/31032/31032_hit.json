@@ -1,0 +1,549 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 75
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 20,
+            "id": "se_ability_00220"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140627_0",
+        "core_ver": "1.0",
+        "created_date": "木 1月 16 16:08:40 2014",
+        "date": "火 7月 29 14:29:11 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            140,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0.5,
+                    0.5
+                ],
+                "anime": {
+                    "posX": [
+                        {
+                            "point": [
+                                300,
+                                0,
+                                301.5,
+                                0,
+                                302.5,
+                                -30,
+                                304,
+                                -30
+                            ],
+                            "type": "spline"
+                        },
+                        {
+                            "point": [
+                                304,
+                                -30,
+                                305.5,
+                                -30,
+                                308.5,
+                                -30,
+                                310,
+                                -30
+                            ],
+                            "type": "spline"
+                        },
+                        {
+                            "point": [
+                                310,
+                                -30,
+                                311.5,
+                                -30,
+                                343.5,
+                                -30,
+                                345,
+                                -30
+                            ],
+                            "type": "spline"
+                        },
+                        {
+                            "point": [
+                                345,
+                                -30,
+                                346.5,
+                                -30,
+                                348.5,
+                                -30,
+                                350,
+                                -30
+                            ],
+                            "type": "spline"
+                        },
+                        {
+                            "point": [
+                                350,
+                                -30,
+                                351.5,
+                                -30,
+                                352.5,
+                                0,
+                                354,
+                                0
+                            ],
+                            "type": "spline"
+                        }
+                    ]
+                },
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": true
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attractor": {
+                            "falloutType": "quadraticEaseOut",
+                            "radius": 9999,
+                            "startFrame": 0,
+                            "strength": 1
+                        },
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "name": "player_attractor_01_1",
+                    "type": "attractor"
+                },
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "isCreate": true,
+                    "name": "player_shot_pos_nul_01_1",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "isCreate": true,
+                    "name": "player_launch_pos_nul_01_1",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "isCreate": true,
+                    "name": "player_hit_pos_nul_01_1",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "isCreate": true,
+                    "name": "player_eff_pos_nul_01_1",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "player_eff_action_nul_01",
+            "type": "null"
+        },
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/31032/pb_31032_hit.json",
+                                    "frame": 5
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "particle_newItem_2",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1,
+                                                0,
+                                                3,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                3,
+                                                1,
+                                                9,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                9,
+                                                1,
+                                                11,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -7,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    20
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anime": {
+                                            "posY": [
+                                                {
+                                                    "point": [
+                                                        0,
+                                                        2,
+                                                        5,
+                                                        3
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        5,
+                                                        3,
+                                                        9,
+                                                        8
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        9,
+                                                        8,
+                                                        13,
+                                                        50
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            2,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/31032/pb_31032_hit_1.json",
+                                            "frame": 1
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "particle_slash_1_2",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "slashRotation_nul_1_2",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

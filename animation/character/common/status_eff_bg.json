@@ -1,0 +1,307 @@
+{
+    "action": [
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "particle_front_eff_guardian"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1002,
+            "node": "particle_front_eff_guardian"
+        },
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "particle_front_eff_burst_special"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1102,
+            "node": "particle_front_eff_burst_special"
+        },
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 1202,
+            "node": "particle_front_eff_burst_special"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20150609_0",
+        "core_ver": "1.0",
+        "created_date": "火 1月 28 15:32:36 2014",
+        "date": "月 8月 31 18:51:41 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "eff_burst_special": [
+            1101,
+            1151,
+            1
+        ],
+        "eff_burst_special_close": [
+            1201,
+            1251,
+            0
+        ],
+        "eff_light_guardian": [
+            1001,
+            1061,
+            1
+        ],
+        "stop": [
+            101,
+            102,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1.5,
+                    1.5
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            1
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_eff_guardian.json",
+                                            "frame": 1001
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.800000011920929,
+                                            0.800000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "particle_front_eff_guardian",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "front_eff_guardian",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_eff_special_burst.json",
+                                            "frame": 1101
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.850000023841858,
+                                            0.850000023841858
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "particle_front_eff_burst_special",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            -5,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_eff_special_burst_close.json",
+                                            "frame": 1201
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1.20000004768372,
+                                            1.20000004768372
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "particle_front_eff_burst_special_close",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "front_eff_burst_special",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": false,
+                    "name": "character_eff_back_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": false,
+            "name": "base_visible_nul",
+            "type": "null"
+        }
+    ]
+}

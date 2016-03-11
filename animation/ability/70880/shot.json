@@ -1,0 +1,1535 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 1100,
+            "id": "se_ability_00280"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1120,
+            "id": "se_ability_00300"
+        },
+        {
+            "action": "chant_wait",
+            "actionName": "action_setAction",
+            "frame": 1150,
+            "node": "chara_sprite_01"
+        },
+        {
+            "action": "chant_wait",
+            "actionName": "action_setAction",
+            "frame": 1150,
+            "node": "chara_sprite_02"
+        },
+        {
+            "action": "chant_wait",
+            "actionName": "action_setAction",
+            "frame": 1150,
+            "node": "chara_sprite_03"
+        },
+        {
+            "action": "chant_wait",
+            "actionName": "action_setAction",
+            "frame": 1150,
+            "node": "chara_sprite_04"
+        },
+        {
+            "action": "squat",
+            "actionName": "action_setAction",
+            "frame": 1165,
+            "node": "chara_sprite_01"
+        },
+        {
+            "action": "squat",
+            "actionName": "action_setAction",
+            "frame": 1165,
+            "node": "chara_sprite_02"
+        },
+        {
+            "action": "squat",
+            "actionName": "action_setAction",
+            "frame": 1165,
+            "node": "chara_sprite_03"
+        },
+        {
+            "action": "squat",
+            "actionName": "action_setAction",
+            "frame": 1165,
+            "node": "chara_sprite_04"
+        },
+        {
+            "action": "jump",
+            "actionName": "action_setAction",
+            "frame": 1170,
+            "node": "chara_sprite_01"
+        },
+        {
+            "action": "jump",
+            "actionName": "action_setAction",
+            "frame": 1170,
+            "node": "chara_sprite_02"
+        },
+        {
+            "action": "jump",
+            "actionName": "action_setAction",
+            "frame": 1170,
+            "node": "chara_sprite_03"
+        },
+        {
+            "action": "jump",
+            "actionName": "action_setAction",
+            "frame": 1170,
+            "node": "chara_sprite_04"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1170,
+            "id": "se_ability_00330"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1200,
+            "id": "se_ability_00430"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1200,
+            "id": "se_ability_00190"
+        },
+        {
+            "actionName": "action_playTag",
+            "frame": 1230,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1230,
+            "id": "se_ability_00192"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1280,
+            "id": "se_ability_00193"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1300,
+            "id": "se_ability_00193"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1315,
+            "id": "se_ability_00193"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 1350
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20151015_0",
+        "core_ver": "1.0",
+        "created_date": "木 11月 26 16:53:01 2015",
+        "date": "木 11月 26 17:23:10 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1000,
+            1430,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0.5,
+                    0.5
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1080,
+                                                0,
+                                                1100,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1100,
+                                                1,
+                                                1105,
+                                                1,
+                                                1335,
+                                                1,
+                                                1340,
+                                                1
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1340,
+                                                1,
+                                                1360,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "alpha",
+                                "color": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    0,
+                                    0,
+                                    7,
+                                    7
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_common_eff.json",
+                                    "packerid": "dot.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_common_eff.png",
+                                    "uvs": [
+                                        0.0078125,
+                                        0.0078125,
+                                        0.02734375,
+                                        0.02734375
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    300,
+                                    300
+                                ],
+                                "visible": true
+                            },
+                            "name": "img_black_shot",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_common_bg_space.json",
+                                    "frame": 1080
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_shot_space",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_particle.json",
+                                    "frame": 1080
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_vio_balls",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1230,
+                                                -32.4870300292969,
+                                                1250,
+                                                -32.4870300292969,
+                                                1247.8876953125,
+                                                167.741119384766,
+                                                1260,
+                                                400
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                1230,
+                                                1,
+                                                1250,
+                                                1,
+                                                1240,
+                                                0.699999988079071,
+                                                1260,
+                                                0.699999988079071
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "scaleY": [
+                                        {
+                                            "point": [
+                                                1230,
+                                                0.400000005960465,
+                                                1250,
+                                                0.400000005960465,
+                                                1240,
+                                                0.200000002980232,
+                                                1260,
+                                                0.200000002980232
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    -32.4870300292969,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_magic_circle.json",
+                                            "frame": 1100
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            27.7778434753418
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_magic_circle_a",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_magic_circle.json",
+                                            "frame": 1100
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            27.7778434753418
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_magic_circle_b",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_circle",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    62.2108573913574,
+                                    -82.895881652832,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_lanceup.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.699999988079071,
+                                    0.699999988079071
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_lance_up_piller_a",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -118.340942382812,
+                                    -57.5333786010742,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_lanceup.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_lance_up_piller_b",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    119.796165466309,
+                                    -11.4859237670898,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_lanceup.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_lance_up_piller_c",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -63.7700271606445,
+                                    3.89784717559814,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_lanceup.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_lance_up_piller_d",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1150,
+                                                0,
+                                                1160,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1160,
+                                                1,
+                                                1190,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1190,
+                                                1,
+                                                1200,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            118.785308837891,
+                                            -27.8120613098145,
+                                            0,
+                                            0
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            2,
+                                            2
+                                        ],
+                                        "sprite": {
+                                            "action": "idle",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/player/sab/100001/base.sajson",
+                                            "frame": 1150
+                                        },
+                                        "visible": true
+                                    },
+                                    "name": "chara_sprite_01",
+                                    "type": "sprite"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            61.9276084899902,
+                                            -93.8169403076172,
+                                            0,
+                                            0
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1.70000004768372,
+                                            1.70000004768372
+                                        ],
+                                        "sprite": {
+                                            "action": "idle",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/player/sab/100001/base.sajson",
+                                            "frame": 1150
+                                        },
+                                        "visible": true
+                                    },
+                                    "name": "chara_sprite_02",
+                                    "type": "sprite"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -117.792655944824,
+                                            -75.3667602539062,
+                                            0,
+                                            0
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            -1.79999995231628,
+                                            1.79999995231628
+                                        ],
+                                        "sprite": {
+                                            "action": "idle",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/player/sab/100001/base.sajson",
+                                            "frame": 1150
+                                        },
+                                        "visible": true
+                                    },
+                                    "name": "chara_sprite_03",
+                                    "type": "sprite"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -62.4421463012695,
+                                            -2.4496545791626,
+                                            0,
+                                            0
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            -2,
+                                            2
+                                        ],
+                                        "sprite": {
+                                            "action": "idle",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/player/sab/100001/base.sajson",
+                                            "frame": 1150
+                                        },
+                                        "visible": true
+                                    },
+                                    "name": "chara_sprite_04",
+                                    "type": "sprite"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_chara",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1230,
+                                                -108.206268310547,
+                                                1244.29370117188,
+                                                -13.1686201095581,
+                                                1239.12744140625,
+                                                -284.533233642578,
+                                                1245,
+                                                -500
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    63.7180557250977,
+                                    -108.206268310547,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1200
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    0.699999988079071,
+                                    0.699999988079071
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_birth_a",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1230,
+                                                -108.206268310547,
+                                                1242.27209472656,
+                                                4.92235326766968,
+                                                1237.55505371094,
+                                                -302.624206542969,
+                                                1245,
+                                                -450
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -119.848136901855,
+                                    -108.206268310547,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1200
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_birth_b",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1230,
+                                                -55.9741172790527,
+                                                1241.37365722656,
+                                                54.6725311279297,
+                                                1238.00427246094,
+                                                -157.896408081055,
+                                                1245,
+                                                -500
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    119.84814453125,
+                                    -55.9741172790527,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1200
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_birth_c",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1230,
+                                                -16.7870101928711,
+                                                1238.00427246094,
+                                                158.69563293457,
+                                                1235.30883789062,
+                                                -221.214813232422,
+                                                1245,
+                                                -500
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -65.2252349853516,
+                                    -16.7870101928711,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1200
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_birth_d",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    63.7180557250977,
+                                    -90.5356979370117,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_change.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    0.699999988079071,
+                                    0.699999988079071
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_change_flare_a",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -117.56135559082,
+                                    -69.8507385253906,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_change.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_change_flare_b",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    120.627731323242,
+                                    -23.7513084411621,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_change.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_change_flare_c",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -64.4456481933594,
+                                    3.94991874694824,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_change.json",
+                                    "frame": 1170
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_change_flare_d",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                -122.099472045898,
+                                                1320,
+                                                -50
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1320,
+                                                -50,
+                                                1330,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                304.12744140625,
+                                                1295.52563476562,
+                                                260.890960693359,
+                                                1304.78210449219,
+                                                158.290069580078,
+                                                1320,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1320,
+                                                -50,
+                                                1330,
+                                                -500
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -122.099472045898,
+                                    304.12744140625,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1280
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    0.699999988079071,
+                                    0.699999988079071
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_move_a",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                100,
+                                                1286.1025390625,
+                                                19.5660552978516,
+                                                1307.76928710938,
+                                                -29.0556011199951,
+                                                1315,
+                                                50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1315,
+                                                50,
+                                                1330,
+                                                200
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                304.12744140625,
+                                                1295.52563476562,
+                                                260.890960693359,
+                                                1299.78210449219,
+                                                158.290069580078,
+                                                1315,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1315,
+                                                -50,
+                                                1330,
+                                                -500
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    100,
+                                    304.12744140625,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1280
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_move_b",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                10,
+                                                1286.01281738281,
+                                                34.9129791259766,
+                                                1310.16662597656,
+                                                159.353317260742,
+                                                1320,
+                                                100
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1320,
+                                                100,
+                                                1330,
+                                                -100
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                304.12744140625,
+                                                1295.52563476562,
+                                                260.890960693359,
+                                                1304.78210449219,
+                                                158.290069580078,
+                                                1320,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1320,
+                                                -50,
+                                                1330,
+                                                -500
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    10,
+                                    304.12744140625,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1280
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_move_c",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                50,
+                                                1297.5,
+                                                -146.55793762207,
+                                                1306.72253417969,
+                                                -164.882736206055,
+                                                1315,
+                                                -120
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1315,
+                                                -120,
+                                                1330,
+                                                -150
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                304.12744140625,
+                                                1295.52563476562,
+                                                260.890960693359,
+                                                1299.78210449219,
+                                                158.290069580078,
+                                                1315,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1315,
+                                                -50,
+                                                1330,
+                                                -500
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    50,
+                                    304.12744140625,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70880/pb_shot_thunder_lance.json",
+                                    "frame": 1280
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    180
+                                ],
+                                "scale": [
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_thunder_lance_move_d",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

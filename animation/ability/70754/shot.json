@@ -1,0 +1,259 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 1264
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "木 6月 18 11:04:03 2015",
+        "date": "木 6月 18 13:11:00 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1000,
+            1400,
+            0
+        ],
+        "play_hit": [
+            1280,
+            1450,
+            0
+        ],
+        "play_launch": [
+            1000,
+            1300,
+            0
+        ],
+        "play_shot": [
+            1040,
+            1430,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    1,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1040,
+                                                0,
+                                                1070,
+                                                0.627451002597809
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1070,
+                                                0.627451002597809,
+                                                1210,
+                                                0.627451002597809
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1210,
+                                                0.627451002597809,
+                                                1310,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    0.152941176470588,
+                                    0.349019607843137,
+                                    1
+                                ],
+                                "filtering": false,
+                                "frame": [
+                                    0,
+                                    -72.3506622314453,
+                                    255,
+                                    80
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.json",
+                                    "packerid": "light_line_1.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_line.png",
+                                    "uvs": [
+                                        0,
+                                        0.01953125,
+                                        0.99609375,
+                                        0.3125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    270
+                                ],
+                                "scale": [
+                                    2,
+                                    15
+                                ],
+                                "visible": true
+                            },
+                            "name": "img_under_glow",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    66.0048675537109,
+                                    -136.739135742188,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70754/pb_shot_medicara.json",
+                                    "frame": 1220
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_medicara_main",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    79.0499114990234,
+                                    -56.8576812744141,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70754/pb_shot_fall_kira.json",
+                                    "frame": 1260
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_end_kirakira",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

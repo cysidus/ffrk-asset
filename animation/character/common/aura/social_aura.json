@@ -1,0 +1,210 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00341"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141024_0",
+        "core_ver": "1.0",
+        "created_date": "木 1月 9 19:48:38 2014",
+        "date": "月 1月 12 18:36:40 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            10,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    1
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    18,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            -32,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/aura/pb_lb_aura_silver.json",
+                                            "frame": 2
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.400000005960465,
+                                            0.400000005960465
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_aura",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "add",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            -32,
+                                            0,
+                                            0
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.400000005960465,
+                                            0.400000005960465
+                                        ],
+                                        "sprite": {
+                                            "action": "action0",
+                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/lb_aura_silver.sajson",
+                                            "frame": 2
+                                        },
+                                        "visible": true
+                                    },
+                                    "name": "sprt_aura",
+                                    "type": "sprite"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_aura",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": false,
+                    "name": "special_ready_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": false,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

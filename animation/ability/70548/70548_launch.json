@@ -1,0 +1,937 @@
+{
+    "action": [
+        {
+            "actionName": "action_special_name_out",
+            "frame": 1239
+        },
+        {
+            "actionName": "action_special_name_in",
+            "frame": 1000
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1000,
+            "id": "se_ability_launch_100005"
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 1000,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "bg_color_black"
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 1239,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 981
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1020,
+            "id": "se_ability_00182"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1040,
+            "id": "se_ability_10120"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1060,
+            "id": "se_ability_00503"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1080,
+            "id": "se_ability_00503"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1100,
+            "id": "se_ability_00503"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1065,
+            "id": "se_ability_00700"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1101,
+            "id": "se_ability_00700"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1200,
+            "id": "se_ability_00030"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1180,
+            "id": "se_ability_00182"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1050,
+            "id": "se_ability_00240"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1055,
+            "id": "se_ability_00471"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "火 12月 9 14:04:49 2014",
+        "date": "水 1月 28 11:04:23 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            980,
+            1241,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    226.67724609375,
+                    191.611663818359,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    15,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/pb_lb_aura_big.json",
+                                    "frame": 1000
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_aura",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 0,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "anime": {
+                                            "alpha": [
+                                                {
+                                                    "point": [
+                                                        999,
+                                                        0,
+                                                        1000,
+                                                        1
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        1000,
+                                                        1,
+                                                        1239,
+                                                        1
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        1239,
+                                                        1,
+                                                        1240,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            3,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0
+                                                ],
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    64,
+                                                    64
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1.5,
+                                                    1.5
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "anime": {
+                                                            "alpha": [
+                                                                {
+                                                                    "point": [
+                                                                        1020,
+                                                                        1,
+                                                                        1021,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                },
+                                                                {
+                                                                    "point": [
+                                                                        1021,
+                                                                        0,
+                                                                        1200,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                },
+                                                                {
+                                                                    "point": [
+                                                                        1200,
+                                                                        0,
+                                                                        1201,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            15,
+                                                            24
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/character/player/sab/106006/img_chara.json",
+                                                            "packerid": "base_idle.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/character/player/sab/106006/img_chara.png",
+                                                            "uvs": [
+                                                                0.7734375,
+                                                                0.37109375,
+                                                                0.05859375,
+                                                                0.09375
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_chara_1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 0,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "anime": {
+                                                            "alpha": [
+                                                                {
+                                                                    "point": [
+                                                                        1020,
+                                                                        0,
+                                                                        1021,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                },
+                                                                {
+                                                                    "point": [
+                                                                        1021,
+                                                                        1,
+                                                                        1035,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                },
+                                                                {
+                                                                    "point": [
+                                                                        1035,
+                                                                        1,
+                                                                        1036,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            16,
+                                                            23
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/character/player/sab/106006/img_chara.json",
+                                                            "packerid": "base_left_arm_1.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/character/player/sab/106006/img_chara.png",
+                                                            "uvs": [
+                                                                0.13671875,
+                                                                0.2578125,
+                                                                0.0625,
+                                                                0.08984375
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_chara_2",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 0,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "anime": {
+                                                            "alpha": [
+                                                                {
+                                                                    "point": [
+                                                                        1035,
+                                                                        0,
+                                                                        1036,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                },
+                                                                {
+                                                                    "point": [
+                                                                        1036,
+                                                                        1,
+                                                                        1200,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                },
+                                                                {
+                                                                    "point": [
+                                                                        1200,
+                                                                        1,
+                                                                        1201,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            16,
+                                                            24
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/character/player/sab/106006/img_chara.json",
+                                                            "packerid": "base_special_attack.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/character/player/sab/106006/img_chara.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.1015625,
+                                                                0.0625,
+                                                                0.09375
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_chara_3",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "launch_chara_images_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 0,
+                                                "anchor": [
+                                                    1,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "alpha": [
+                                                        {
+                                                            "point": [
+                                                                1020,
+                                                                0,
+                                                                1030,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1030,
+                                                                1,
+                                                                1060,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1060,
+                                                                1,
+                                                                1061,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1061,
+                                                                0,
+                                                                1150,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1150,
+                                                                0,
+                                                                1151,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1151,
+                                                                1,
+                                                                1200,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1200,
+                                                                1,
+                                                                1210,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ],
+                                                    "posX": [
+                                                        {
+                                                            "point": [
+                                                                1160,
+                                                                0,
+                                                                1180,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1180,
+                                                                5,
+                                                                1190,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1190,
+                                                                5,
+                                                                1200,
+                                                                6
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ],
+                                                    "posY": [
+                                                        {
+                                                            "point": [
+                                                                980,
+                                                                -20,
+                                                                1020,
+                                                                -20
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1020,
+                                                                -20,
+                                                                1035,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1035,
+                                                                0,
+                                                                1160,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1160,
+                                                                0,
+                                                                1180,
+                                                                8
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1180,
+                                                                8,
+                                                                1190,
+                                                                8
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1190,
+                                                                8,
+                                                                1200,
+                                                                -20
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1200,
+                                                                -20,
+                                                                1210,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ],
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                1019.99279785156,
+                                                                270,
+                                                                1020.04626464844,
+                                                                162.497695922852,
+                                                                1027.92907714844,
+                                                                172.202758789062,
+                                                                1030,
+                                                                135
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1030,
+                                                                135,
+                                                                1032.07092285156,
+                                                                97.7972412109375,
+                                                                1032.44506835938,
+                                                                15.1566886901855,
+                                                                1035,
+                                                                -5
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1035,
+                                                                -5,
+                                                                1037.55493164062,
+                                                                -25.1566886901855,
+                                                                1038,
+                                                                0,
+                                                                1040,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1040,
+                                                                0,
+                                                                1160,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1160,
+                                                                0,
+                                                                1165,
+                                                                0,
+                                                                1163,
+                                                                -10,
+                                                                1168,
+                                                                -10
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1168,
+                                                                -10,
+                                                                1173,
+                                                                -10,
+                                                                1170,
+                                                                45,
+                                                                1175,
+                                                                45
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1175,
+                                                                45,
+                                                                1180,
+                                                                45,
+                                                                1175,
+                                                                32,
+                                                                1180,
+                                                                32
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1180,
+                                                                32,
+                                                                1190,
+                                                                32,
+                                                                1180,
+                                                                35,
+                                                                1190,
+                                                                35
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1190,
+                                                                35,
+                                                                1200,
+                                                                35,
+                                                                1190,
+                                                                -90,
+                                                                1200,
+                                                                -90
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": false,
+                                                "frame": [
+                                                    0,
+                                                    -20,
+                                                    32,
+                                                    14
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70548/img_70548.json",
+                                                    "packerid": "img_70548_bowgun.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/ability/70548/img_70548.png",
+                                                    "uvs": [
+                                                        0.03125,
+                                                        0.0625,
+                                                        0.5,
+                                                        0.4375
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    270
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "img_bowgun",
+                                            "type": "image"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70548/pb_launch_bowgun.json",
+                                                    "frame": 1060
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ptcl_bowgun",
+                                            "type": "particle"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "launch_chara_group_nul",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "launch_group_nul",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_launch_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

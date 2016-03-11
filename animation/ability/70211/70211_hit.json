@@ -1,0 +1,504 @@
+{
+    "action": [
+        {
+            "actionName": "action_special_name_out",
+            "frame": 145
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 101,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 113,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 125,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 103,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 115,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 127,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 100,
+            "layer": "layer_battle_field",
+            "node": "bg_color_win",
+            "tag": "bg_color_black"
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 159,
+            "layer": "layer_battle_field",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 102,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 114,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 126,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "": "",
+            "actionName": "action_next",
+            "frame": 145
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140612_0",
+        "core_ver": "1.0",
+        "created_date": "木 1月 9 19:49:55 2014",
+        "date": "月 6月 23 19:21:32 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            91,
+            160,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70211/pb_70211_hit.json",
+                                    "frame": 102
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 0,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "alpha": [
+                                                {
+                                                    "point": [
+                                                        101,
+                                                        0,
+                                                        103,
+                                                        1
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        103,
+                                                        1,
+                                                        105,
+                                                        0.250980406999588
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        105,
+                                                        0.250980406999588,
+                                                        112,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            0,
+                                            256,
+                                            256
+                                        ],
+                                        "image": {
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_sword_2.png",
+                                            "uvs": [
+                                                0,
+                                                0,
+                                                1,
+                                                1
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.75,
+                                            0.75
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "img_sword",
+                                    "type": "image"
+                                }
+                            ],
+                            "name": "ptcl_blaiber",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -10,
+                                    10,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70211/pb_70211_hit.json",
+                                    "frame": 114
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    240
+                                ],
+                                "scale": [
+                                    0.75,
+                                    0.75
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 0,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "alpha": [
+                                                {
+                                                    "point": [
+                                                        113,
+                                                        0,
+                                                        114,
+                                                        1
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        114,
+                                                        1,
+                                                        117,
+                                                        0.250980406999588
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        117,
+                                                        0.250980406999588,
+                                                        124,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            0,
+                                            256,
+                                            256
+                                        ],
+                                        "image": {
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_sword_2.png",
+                                            "uvs": [
+                                                0,
+                                                0,
+                                                1,
+                                                1
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.800000011920929,
+                                            0.800000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "img_sword_1",
+                                    "type": "image"
+                                }
+                            ],
+                            "name": "ptcl_blaiber_1",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    30,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70211/pb_70211_hit.json",
+                                    "frame": 126
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    90
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 0,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "alpha": [
+                                                {
+                                                    "point": [
+                                                        125,
+                                                        0,
+                                                        126,
+                                                        1
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        126,
+                                                        1,
+                                                        129,
+                                                        0.250980406999588
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        129,
+                                                        0.250980406999588,
+                                                        136,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            0,
+                                            256,
+                                            256
+                                        ],
+                                        "image": {
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_sword_2.png",
+                                            "uvs": [
+                                                0,
+                                                0,
+                                                1,
+                                                1
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "img_sword_1_1",
+                                    "type": "image"
+                                }
+                            ],
+                            "name": "ptcl_blaiber_2",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

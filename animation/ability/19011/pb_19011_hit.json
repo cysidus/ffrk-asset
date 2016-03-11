@@ -1,0 +1,3462 @@
+{
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "月 12月 23 10:48:52 2013",
+        "date": "木 12月 25 19:00:23 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.06"
+    },
+    "tree": [
+        {
+            "children": [
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "key": 0.5,
+                                "value": 0.235294118523598
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            0.572549019607843,
+                            0.23921568627451,
+                            0.0745098039215686
+                        ],
+                        "color_rand_min": [
+                            0.670588235294118,
+                            0.0705882352941177,
+                            0.0705882352941177
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 0,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "alpha",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.666666666666667,
+                        "emitter_lifetimeMin": 0.666666666666667,
+                        "emitter_maxParticles": 20,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 12,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1.5,
+                                    1.5
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            3,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            3,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 0,
+                        "texture_randPick": [
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle02.png",
+                                "uvMax": [
+                                    1,
+                                    1
+                                ],
+                                "uvMin": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle02.png",
+                                "uvMax": [
+                                    1,
+                                    0
+                                ],
+                                "uvMin": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle02.png",
+                                "uvMax": [
+                                    0,
+                                    1
+                                ],
+                                "uvMin": [
+                                    1,
+                                    0
+                                ]
+                            },
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle02.png",
+                                "uvMax": [
+                                    0,
+                                    0
+                                ],
+                                "uvMin": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ],
+                        "texture_type": "randPick",
+                        "time": 50
+                    },
+                    "name": "back_flare_first",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0.00196078442968428
+                            },
+                            {
+                                "key": 0.200000002980232,
+                                "value": 0.235294118523598
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            0.572549019607843,
+                            0.23921568627451,
+                            0.0745098039215686
+                        ],
+                        "color_rand_min": [
+                            0.670588235294118,
+                            0.0705882352941177,
+                            0.0705882352941177
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 30,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "alpha",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.5,
+                        "emitter_lifetimeMin": 0.333333333333333,
+                        "emitter_maxParticles": 20,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 60,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    0.5,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "key": 0.200000002980232,
+                                "value": [
+                                    1.4,
+                                    1.4
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            3,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            3,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 85,
+                        "texture_randPick": [
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png",
+                                "uvMax": [
+                                    1,
+                                    1
+                                ],
+                                "uvMin": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png",
+                                "uvMax": [
+                                    1,
+                                    0
+                                ],
+                                "uvMin": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png",
+                                "uvMax": [
+                                    0,
+                                    1
+                                ],
+                                "uvMin": [
+                                    1,
+                                    0
+                                ]
+                            },
+                            {
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_light02.png",
+                                "uvMax": [
+                                    0,
+                                    0
+                                ],
+                                "uvMin": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ],
+                        "texture_type": "randPick",
+                        "time": 20
+                    },
+                    "name": "back_flare_last",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0.705882370471954
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_keyframes": [
+                            {
+                                "key": 0.0138248847797513,
+                                "value": [
+                                    0.666666666666667,
+                                    0,
+                                    0
+                                ],
+                                "width": [
+                                    0.666666666666667,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 0.218894004821777,
+                                "value": [
+                                    1,
+                                    0.333333333333333,
+                                    0
+                                ],
+                                "width": [
+                                    1,
+                                    0.333333333333333,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 0.421658992767334,
+                                "value": [
+                                    0.207843137254902,
+                                    0,
+                                    0
+                                ],
+                                "width": [
+                                    0.313725490196078,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ],
+                        "color_type": "keyframes",
+                        "emitShape_circle_innerRadius": 40,
+                        "emitShape_circle_outerRadius": 40,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "alpha",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.333333333333333,
+                        "emitter_lifetimeMin": 0.166666666666667,
+                        "emitter_maxParticles": 100,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 60,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 360,
+                        "initVel_speedMax": 60,
+                        "initVel_speedMin": 30,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": -1,
+                        "physics_radialAccel": -1000,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1.20000004768372,
+                                    1.20000004768372
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            1.8,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.5,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 20,
+                        "texture_constant": {
+                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                            "packerid": "32_circle_001_wb.png"
+                        },
+                        "texture_type": "constant",
+                        "time": 20
+                    },
+                    "name": "charge_red_1",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0.705882370471954
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    0.666666666666667,
+                                    0,
+                                    0
+                                ],
+                                "width": [
+                                    0.450980392156863,
+                                    0.149019607843137,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 0.649769604206085,
+                                "value": [
+                                    1,
+                                    0.333333333333333,
+                                    0
+                                ],
+                                "width": [
+                                    1,
+                                    0.333333333333333,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0.176470588235294,
+                                    0.176470588235294,
+                                    0.176470588235294
+                                ],
+                                "width": [
+                                    0.317647058823529,
+                                    0.117647058823529,
+                                    0.117647058823529
+                                ]
+                            }
+                        ],
+                        "color_type": "keyframes",
+                        "emitShape_circle_innerRadius": 40,
+                        "emitShape_circle_outerRadius": 40,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "alpha",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.333333333333333,
+                        "emitter_lifetimeMin": 0.166666666666667,
+                        "emitter_maxParticles": 59,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 60,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 360,
+                        "initVel_speedMax": 60,
+                        "initVel_speedMin": 30,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": -1,
+                        "physics_radialAccel": -1000,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1.20000004768372,
+                                    1.20000004768372
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    1,
+                                    1
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            1.8,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.5,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 10,
+                        "texture_constant": {
+                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                            "packerid": "32_circle_001_ww.png"
+                        },
+                        "texture_type": "constant",
+                        "time": 20
+                    },
+                    "name": "charge_red_2",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "key": 0.699999988079071,
+                                "value": 0.588235318660736
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0.705882352941177,
+                            0.705882352941177
+                        ],
+                        "color_rand_min": [
+                            1,
+                            0.470588235294118,
+                            0.470588235294118
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 70,
+                        "emitShape_circle_outerRadius": 70,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.333333333333333,
+                        "emitter_lifetimeMin": 0.166666666666667,
+                        "emitter_maxParticles": 20,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 60,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 360,
+                        "initVel_speedMax": 100,
+                        "initVel_speedMin": 30,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "add",
+                        "motion_streak_color1": [
+                            255,
+                            100,
+                            100,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            0,
+                            0,
+                            0
+                        ],
+                        "motion_streak_enabled": true,
+                        "motion_streak_fade": 2,
+                        "motion_streak_min_seg": 0.5,
+                        "motion_streak_stroke": 2,
+                        "motion_streak_tex_rotation": 0,
+                        "ms_image": {
+                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                            "packerid": "32_circle_001_wb.png",
+                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png"
+                        },
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 5,
+                        "physics_radialAccel": -2500,
+                        "physics_tangentialAccel": 500,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    0.5,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0.0500000007450581,
+                                    0.0500000007450581
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            0.6,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.2,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 15,
+                        "texture_constant": {
+                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                            "packerid": "32_circle_001_wb.png"
+                        },
+                        "texture_type": "constant",
+                        "time": 24
+                    },
+                    "name": "charge_white_2",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "key": 0.699999988079071,
+                                "value": 0.588235318660736
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0.705882352941177,
+                            0.588235294117647
+                        ],
+                        "color_rand_min": [
+                            1,
+                            0.588235294117647,
+                            0.588235294117647
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 60,
+                        "emitShape_circle_outerRadius": 70,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.333333333333333,
+                        "emitter_lifetimeMin": 0.166666666666667,
+                        "emitter_maxParticles": 40,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 60,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 360,
+                        "initVel_speedMax": 60,
+                        "initVel_speedMin": 30,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": -1,
+                        "physics_radialAccel": -1000,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0.0500000007450581,
+                                    0.0500000007450581
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            2,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.01,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 1,
+                        "texture_constant": {
+                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                            "packerid": "32_circle_001_wb.png"
+                        },
+                        "texture_type": "constant",
+                        "time": 20
+                    },
+                    "name": "charge_white_1",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_constant": 1,
+                        "alpha_type": "constant",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "color_rand_min": [
+                            0.666666666666667,
+                            0,
+                            0
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 0,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.133333333333333,
+                        "emitter_lifetimeMin": 0.133333333333333,
+                        "emitter_maxParticles": 1,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 120,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 500,
+                        "rotation_spinRateMin": 500,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "key": 0.699999988079071,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            1,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            1,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 40,
+                        "texture_constant": {
+                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json",
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png",
+                            "packerid": "sph0.png"
+                        },
+                        "texture_type": "constant",
+                        "time": 20
+                    },
+                    "name": "flash_red",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "key": 0.100000001490116,
+                                "value": 0.705882370471954
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "color_rand_min": [
+                            0.666666666666667,
+                            0,
+                            0
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 60,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.416666666666667,
+                        "emitter_lifetimeMin": 0.0833333333333333,
+                        "emitter_maxParticles": 12,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 120,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": true,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            0.8,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.1,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 95,
+                        "texture_randPick": [
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_04.png",
+                                "uvMax": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "uvMin": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_04.png",
+                                "uvMax": [
+                                    0.5,
+                                    0
+                                ],
+                                "uvMin": [
+                                    0,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_04.png",
+                                "uvMax": [
+                                    0,
+                                    0.5
+                                ],
+                                "uvMin": [
+                                    0.5,
+                                    0
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_04.png",
+                                "uvMax": [
+                                    0,
+                                    0
+                                ],
+                                "uvMin": [
+                                    0.5,
+                                    0.5
+                                ]
+                            }
+                        ],
+                        "texture_type": "randPick",
+                        "time": 30
+                    },
+                    "name": "explosion_red_1",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "key": 0.100000001490116,
+                                "value": 0.509803950786591
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "color_rand_min": [
+                            0.666666666666667,
+                            0,
+                            0
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 60,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.25,
+                        "emitter_lifetimeMin": 0.0833333333333333,
+                        "emitter_maxParticles": 12,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 120,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": true,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 0.600000023841858,
+                                "value": [
+                                    2.5,
+                                    2.5
+                                ]
+                            },
+                            {
+                                "key": 0.800000011920929,
+                                "value": [
+                                    3.3,
+                                    3.3
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    3.5,
+                                    3.5
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            0.8,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.1,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 80,
+                        "texture_randPick": [
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    1,
+                                    0.5
+                                ],
+                                "uvMin": [
+                                    0.75,
+                                    0.25
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    1,
+                                    0.25
+                                ],
+                                "uvMin": [
+                                    0.75,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    0.75,
+                                    0.5
+                                ],
+                                "uvMin": [
+                                    1,
+                                    0.25
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    0.75,
+                                    0.25
+                                ],
+                                "uvMin": [
+                                    1,
+                                    0.5
+                                ]
+                            }
+                        ],
+                        "texture_type": "randPick",
+                        "time": 20
+                    },
+                    "name": "explosion_red_2",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "key": 0.100000001490116,
+                                "value": 1
+                            },
+                            {
+                                "key": 0.709999978542328,
+                                "value": 1
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0.784313725490196,
+                            0.784313725490196
+                        ],
+                        "color_rand_min": [
+                            1,
+                            0.705882352941177,
+                            0.705882352941177
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 74,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.333333333333333,
+                        "emitter_lifetimeMin": 0.0833333333333333,
+                        "emitter_maxParticles": 8,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 72,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": true,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 0.600000023841858,
+                                "value": [
+                                    2.5,
+                                    2.5
+                                ]
+                            },
+                            {
+                                "key": 0.800000011920929,
+                                "value": [
+                                    3.3,
+                                    3.3
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    3.5,
+                                    3.5
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            0.7,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.3,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 85,
+                        "texture_randPick": [
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    1,
+                                    0.5
+                                ],
+                                "uvMin": [
+                                    0.75,
+                                    0.25
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    1,
+                                    0.25
+                                ],
+                                "uvMin": [
+                                    0.75,
+                                    0.5
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    0.75,
+                                    0.5
+                                ],
+                                "uvMin": [
+                                    1,
+                                    0.25
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/orso_effect_001.png",
+                                "packerid": "32_circle_001_wb.png",
+                                "uvMax": [
+                                    0.75,
+                                    0.25
+                                ],
+                                "uvMin": [
+                                    1,
+                                    0.5
+                                ]
+                            }
+                        ],
+                        "texture_type": "randPick",
+                        "time": 23
+                    },
+                    "name": "explosion_white_1",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_constant": 1,
+                        "alpha_type": "constant",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "color_rand_min": [
+                            0.666666666666667,
+                            0,
+                            0
+                        ],
+                        "color_type": "rand",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 0,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.133333333333333,
+                        "emitter_lifetimeMin": 0.133333333333333,
+                        "emitter_maxParticles": 1,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 120,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 500,
+                        "rotation_spinRateMin": 500,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "key": 0.699999988079071,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            1,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            1,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 100,
+                        "texture_constant": {
+                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json",
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png",
+                            "packerid": "sph0.png"
+                        },
+                        "texture_type": "constant",
+                        "time": 20
+                    },
+                    "name": "flash_red_2",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "key": 0.200000002980232,
+                                "value": 1
+                            },
+                            {
+                                "key": 0.699999988079071,
+                                "value": 0
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1,
+                                    0.392156862745098,
+                                    0.392156862745098
+                                ],
+                                "width": [
+                                    1,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    1,
+                                    0.117647058823529,
+                                    0
+                                ],
+                                "width": [
+                                    1,
+                                    0.0392156862745098,
+                                    0
+                                ]
+                            }
+                        ],
+                        "color_type": "keyframes",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 0,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.416666666666667,
+                        "emitter_lifetimeMin": 0.416666666666667,
+                        "emitter_maxParticles": 20,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 600,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 360,
+                        "initVel_speedMax": 1000,
+                        "initVel_speedMin": 999,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 10,
+                        "physics_radialAccel": 2200,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": true,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1.59999996423721,
+                                    1.29999995231628
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0.200000002980232,
+                                    -0.100000008940697
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            1,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.01,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 100,
+                        "texture_randPick": [
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_02.png",
+                                "uvMax": [
+                                    0.9921875,
+                                    0.9375
+                                ],
+                                "uvMin": [
+                                    0.5,
+                                    0.46875
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_02.png",
+                                "uvMax": [
+                                    0.9921875,
+                                    0.46875
+                                ],
+                                "uvMin": [
+                                    0.5,
+                                    0.9375
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_02.png",
+                                "uvMax": [
+                                    0.5,
+                                    0.9375
+                                ],
+                                "uvMin": [
+                                    0.9921875,
+                                    0.46875
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_fire.png",
+                                "packerid": "eff_fire_02.png",
+                                "uvMax": [
+                                    0.5,
+                                    0.46875
+                                ],
+                                "uvMin": [
+                                    0.9921875,
+                                    0.9375
+                                ]
+                            }
+                        ],
+                        "texture_type": "randPick",
+                        "time": 10
+                    },
+                    "name": "spark_fire",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 0
+                            },
+                            {
+                                "key": 0.200000002980232,
+                                "value": 1
+                            },
+                            {
+                                "key": 0.300000011920929,
+                                "value": 0
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1,
+                                    0.392156862745098,
+                                    0.392156862745098
+                                ],
+                                "width": [
+                                    1,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    1,
+                                    0.117647058823529,
+                                    0
+                                ],
+                                "width": [
+                                    1,
+                                    0.0392156862745098,
+                                    0
+                                ]
+                            }
+                        ],
+                        "color_type": "keyframes",
+                        "emitShape_circle_innerRadius": 0,
+                        "emitShape_circle_outerRadius": 0,
+                        "emitShape_type": "circle",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.5,
+                        "emitter_lifetimeMin": 0.5,
+                        "emitter_maxParticles": 100,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 600,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 360,
+                        "initVel_speedMax": 400,
+                        "initVel_speedMin": 300,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": -7,
+                        "physics_radialAccel": 1900,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": true,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    1.59999996423721,
+                                    1.29999995231628
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    0.200000002980232,
+                                    -0.100000008940697
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            2,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.01,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 100,
+                        "texture_randPick": [
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png",
+                                "packerid": "sph0.png",
+                                "uvMax": [
+                                    0.2421875,
+                                    0.734375
+                                ],
+                                "uvMin": [
+                                    0,
+                                    0.4921875
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png",
+                                "packerid": "sph0.png",
+                                "uvMax": [
+                                    0.2421875,
+                                    0.4921875
+                                ],
+                                "uvMin": [
+                                    0,
+                                    0.734375
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png",
+                                "packerid": "sph0.png",
+                                "uvMax": [
+                                    0,
+                                    0.734375
+                                ],
+                                "uvMin": [
+                                    0.2421875,
+                                    0.4921875
+                                ]
+                            },
+                            {
+                                "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json",
+                                "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png",
+                                "packerid": "sph0.png",
+                                "uvMax": [
+                                    0,
+                                    0.4921875
+                                ],
+                                "uvMin": [
+                                    0.2421875,
+                                    0.734375
+                                ]
+                            }
+                        ],
+                        "texture_type": "randPick",
+                        "time": 10
+                    },
+                    "name": "spark",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "key": 0.449999988079071,
+                                "value": 0
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0.180392156862745,
+                            0.180392156862745
+                        ],
+                        "color_rand_min": [
+                            1,
+                            0.0117647058823529,
+                            0.0117647058823529
+                        ],
+                        "color_type": "rand",
+                        "emitShape_box_max": [
+                            0,
+                            0
+                        ],
+                        "emitShape_type": "box",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.333333333333333,
+                        "emitter_lifetimeMin": 0.333333333333333,
+                        "emitter_maxParticles": 1,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 60,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    0.699999988079071,
+                                    0.699999988079071
+                                ]
+                            },
+                            {
+                                "key": 0.100000001490116,
+                                "value": [
+                                    1.79999995231628,
+                                    1.79999995231628
+                                ]
+                            },
+                            {
+                                "key": 0.5,
+                                "value": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            1,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            1,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 100,
+                        "texture_constant": {
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle02.png",
+                            "uvMax": [
+                                1,
+                                1
+                            ],
+                            "uvMin": [
+                                0,
+                                0
+                            ]
+                        },
+                        "texture_type": "constant",
+                        "time": 20
+                    },
+                    "name": "spark_ring",
+                    "type": "emitter"
+                },
+                {
+                    "attrs": {
+                        "alpha_keyframes": [
+                            {
+                                "key": 0,
+                                "value": 1
+                            },
+                            {
+                                "key": 0.200000002980232,
+                                "value": 0.0784313753247261
+                            },
+                            {
+                                "key": 0.400000005960465,
+                                "value": 0
+                            },
+                            {
+                                "key": 0.740000009536743,
+                                "value": 0
+                            },
+                            {
+                                "key": 1,
+                                "value": 0
+                            }
+                        ],
+                        "alpha_type": "keyframes",
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "attach_node": "none",
+                        "color_rand_max": [
+                            1,
+                            0.180392156862745,
+                            0.180392156862745
+                        ],
+                        "color_rand_min": [
+                            1,
+                            0.0117647058823529,
+                            0.0117647058823529
+                        ],
+                        "color_type": "rand",
+                        "emitShape_box_max": [
+                            0,
+                            0
+                        ],
+                        "emitShape_type": "box",
+                        "emitter_blendMode": "add",
+                        "emitter_freeParticles": false,
+                        "emitter_lifetimeMax": 0.916666666666667,
+                        "emitter_lifetimeMin": 0.916666666666667,
+                        "emitter_maxParticles": 1,
+                        "emitter_position": [
+                            0,
+                            0
+                        ],
+                        "emitter_rate": 60,
+                        "initVel_angle": 0,
+                        "initVel_angleDelta": 180,
+                        "initVel_speedMax": 0,
+                        "initVel_speedMin": 0,
+                        "motion_streak_auto_fadeout": false,
+                        "motion_streak_blendMode": "alpha",
+                        "motion_streak_color1": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_color2": [
+                            255,
+                            255,
+                            255,
+                            255
+                        ],
+                        "motion_streak_enabled": false,
+                        "motion_streak_fade": 0.5,
+                        "motion_streak_min_seg": 1,
+                        "motion_streak_stroke": 10,
+                        "motion_streak_tex_rotation": 0,
+                        "oscillation_enabled": false,
+                        "oscl_pos_speed_x_random_enabled": false,
+                        "oscl_pos_speed_y_random_enabled": false,
+                        "oscl_pos_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_pos_var_x_random_enabled": false,
+                        "oscl_pos_var_y_random_enabled": false,
+                        "oscl_position_enabled": false,
+                        "oscl_rotation_enabled": false,
+                        "oscl_rotation_speed_random_enabled": false,
+                        "oscl_rotation_var_angle_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_rotation_var_angle_random_enabled": false,
+                        "oscl_rotation_var_speed": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_enabled": false,
+                        "oscl_scale_speed_x_random_enabled": false,
+                        "oscl_scale_speed_y_random_enabled": false,
+                        "oscl_scale_var_maxX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_maxY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minX": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_minY": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_max": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_speed_min": [
+                            0,
+                            0
+                        ],
+                        "oscl_scale_var_x_random_enabled": false,
+                        "oscl_scale_var_y_random_enabled": false,
+                        "physics_accel": [
+                            0,
+                            0
+                        ],
+                        "physics_dragCoeff": 0,
+                        "physics_radialAccel": 0,
+                        "physics_tangentialAccel": 0,
+                        "rotation_alignToVelocity": false,
+                        "rotation_alignToVelocityAngle": 0,
+                        "rotation_angle": 0,
+                        "rotation_angleDelta": 0,
+                        "rotation_spinRateMax": 0,
+                        "rotation_spinRateMin": 0,
+                        "scale_keyframes": [
+                            {
+                                "key": 0,
+                                "value": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "key": 0.200000002980232,
+                                "value": [
+                                    3.8,
+                                    3.8
+                                ]
+                            },
+                            {
+                                "key": 0.400000005960465,
+                                "value": [
+                                    2,
+                                    2
+                                ]
+                            },
+                            {
+                                "key": 0.740000009536743,
+                                "value": [
+                                    0.923333340883255,
+                                    0.923333340883255
+                                ]
+                            },
+                            {
+                                "key": 1,
+                                "value": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ],
+                        "scale_type": "keyframes",
+                        "size_preserveAspectRatio": true,
+                        "size_rand_scale_max": [
+                            0.7,
+                            1
+                        ],
+                        "size_rand_scale_min": [
+                            0.7,
+                            1
+                        ],
+                        "size_type": "randScale",
+                        "startframe": 46,
+                        "texture_constant": {
+                            "image": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_circle02.png",
+                            "uvMax": [
+                                1,
+                                1
+                            ],
+                            "uvMin": [
+                                0,
+                                0
+                            ]
+                        },
+                        "texture_type": "constant",
+                        "time": 26
+                    },
+                    "name": "spark_ring_01",
+                    "type": "emitter"
+                }
+            ],
+            "name": "pb_19011_hit",
+            "type": "effect"
+        }
+    ]
+}

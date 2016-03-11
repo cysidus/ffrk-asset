@@ -1,0 +1,328 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 370
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 324,
+            "id": "se_ability_00170"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 315,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 325,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141024_0",
+        "core_ver": "1.0",
+        "created_date": "月 3月 9 23:15:57 2015",
+        "date": "月 3月 9 23:16:17 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "check_shot": [
+            250,
+            420,
+            1
+        ],
+        "play": [
+            315,
+            420,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    81.8875732421875,
+                    256.608062744141,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    15.9451141357422,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -17.9720153808594,
+                                            -6.08074951171875,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70233/pb_hit_smoke_2.json",
+                                            "frame": 318
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.600000023841858,
+                                            0.600000023841858
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "eff_hit_smoke_2_1",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -1.95935082435608,
+                                            6.01318359375,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70233/pb_hit_smoke_3.json",
+                                            "frame": 323
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.600000023841858,
+                                            0.600000023841858
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "eff_hit_smoke_3_1",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -11.8236999511719,
+                                            3.91864013671875,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70233/pb_hit_smoke_6.json",
+                                            "frame": 323
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            108
+                                        ],
+                                        "scale": [
+                                            0.75,
+                                            0.899999976158142
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "eff_hit_smoke_6_1",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -19.8638153076172,
+                                            -2.02694702148438,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70233/pb_hit_smoke_6.json",
+                                            "frame": 316
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            16.0052108764648
+                                        ],
+                                        "scale": [
+                                            0.800000011920929,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "eff_hit_smoke_6_2",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -3.98626708984375,
+                                            -1.95935094356537,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70233/pb_hit_smoke_5.json",
+                                            "frame": 320
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            58
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "eff_hit_smoke_5",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_hit_smoke_01",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

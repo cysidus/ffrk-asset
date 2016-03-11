@@ -1,0 +1,1222 @@
+{
+    "action": [
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 71,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "bg_color_black"
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 455,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 71
+        },
+        {
+            "actionName": "action_special_name_out",
+            "frame": 455
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 190,
+            "id": "se_ability_00490"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 195,
+            "id": "se_ability_00490"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 200,
+            "id": "se_ability_00490"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 203,
+            "id": "se_ability_00490"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 206,
+            "id": "se_ability_00490"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 210,
+            "id": "se_ability_00490"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 101,
+            "id": "se_ability_00471"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 101,
+            "id": "se_ability_00024"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 190,
+            "id": "se_ability_00580"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 152,
+            "id": "se_ability_00740"
+        },
+        {
+            "actionName": "action_special_name_in",
+            "frame": 71
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 71,
+            "id": "se_ability_launch_100005"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141024_0",
+        "core_ver": "1.0",
+        "created_date": "水 12月 24 13:44:30 2014",
+        "date": "水 1月 7 20:19:57 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            71,
+            460,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    258.635009765625,
+                    197.692230224609,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            30,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_1.json",
+                                    "frame": 101
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.600000023841858,
+                                    0.100000001490116
+                                ],
+                                "visible": true
+                            },
+                            "name": "circle",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_2.json",
+                                    "frame": 151
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "aura_blue",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                196,
+                                                0,
+                                                197,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                197,
+                                                1,
+                                                197.5,
+                                                1,
+                                                200.42497253418,
+                                                0.610714316368103,
+                                                201,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    -15,
+                                    -90,
+                                    146,
+                                    146
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                    "packerid": "eff_light_ghost01.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                    "uvs": [
+                                        0.00390625,
+                                        0.00390625,
+                                        0.5703125,
+                                        0.5703125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.400000005960465,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_flash_01",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                191,
+                                                0,
+                                                192,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                192,
+                                                1,
+                                                192.5,
+                                                1,
+                                                195.42497253418,
+                                                0.610714316368103,
+                                                196,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    17,
+                                    -90,
+                                    146,
+                                    146
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                    "packerid": "eff_light_ghost01.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                    "uvs": [
+                                        0.00390625,
+                                        0.00390625,
+                                        0.5703125,
+                                        0.5703125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.400000005960465,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_flash_02",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                195,
+                                                0,
+                                                196,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                196,
+                                                1,
+                                                196.5,
+                                                1,
+                                                199.42497253418,
+                                                0.610714316368103,
+                                                200,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    35,
+                                    -72,
+                                    146,
+                                    146
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                    "packerid": "eff_light_ghost01.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                    "uvs": [
+                                        0.00390625,
+                                        0.00390625,
+                                        0.5703125,
+                                        0.5703125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.400000005960465,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_flash_03",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                190,
+                                                0,
+                                                191,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                191,
+                                                1,
+                                                191.5,
+                                                1,
+                                                194.42497253418,
+                                                0.610714316368103,
+                                                195,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    -35,
+                                    -72,
+                                    146,
+                                    146
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                    "packerid": "eff_light_ghost01.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                    "uvs": [
+                                        0.00390625,
+                                        0.00390625,
+                                        0.5703125,
+                                        0.5703125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.400000005960465,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_flash_04",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                200,
+                                                0,
+                                                201,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                201,
+                                                1,
+                                                201.5,
+                                                1,
+                                                204.42497253418,
+                                                0.610714316368103,
+                                                205,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    -15,
+                                    -60,
+                                    146,
+                                    146
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                    "packerid": "eff_light_ghost01.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                    "uvs": [
+                                        0.00390625,
+                                        0.00390625,
+                                        0.5703125,
+                                        0.5703125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.400000005960465,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_flash_05",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                200,
+                                                0,
+                                                201,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                201,
+                                                1,
+                                                201.5,
+                                                1,
+                                                204.42497253418,
+                                                0.610714316368103,
+                                                205,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    17,
+                                    -60,
+                                    146,
+                                    146
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                    "packerid": "eff_light_ghost01.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                    "uvs": [
+                                        0.00390625,
+                                        0.00390625,
+                                        0.5703125,
+                                        0.5703125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.400000005960465,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_flash_06",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        101,
+                                                        0,
+                                                        130.999984741211,
+                                                        122.142860412598,
+                                                        127.859001159668,
+                                                        180,
+                                                        131,
+                                                        180
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ],
+                                            "scaleX": [
+                                                {
+                                                    "point": [
+                                                        101,
+                                                        8,
+                                                        106.656707763672,
+                                                        3.77500009536743,
+                                                        129,
+                                                        1,
+                                                        131,
+                                                        1
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ],
+                                            "scaleY": [
+                                                {
+                                                    "point": [
+                                                        101,
+                                                        8,
+                                                        106.129089355469,
+                                                        3.72500014305115,
+                                                        129,
+                                                        1,
+                                                        131,
+                                                        1
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            -150,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            8,
+                                            8
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anime": {
+                                                    "posX": [
+                                                        {
+                                                            "point": [
+                                                                190,
+                                                                30,
+                                                                190.800109863281,
+                                                                153.997955322266,
+                                                                212.898376464844,
+                                                                160.190093994141,
+                                                                230,
+                                                                161.687759399414
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ],
+                                                    "posY": [
+                                                        {
+                                                            "point": [
+                                                                190,
+                                                                0,
+                                                                199.378677368164,
+                                                                139.735595703125,
+                                                                227.830718994141,
+                                                                213.980178833008,
+                                                                228,
+                                                                145.721313476562
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                228,
+                                                                145.721313476562,
+                                                                230,
+                                                                91.2857208251953
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    30,
+                                                    0,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_3.json",
+                                                    "frame": 101
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1.29999995231628
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ball_01",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anime": {
+                                                    "posX": [
+                                                        {
+                                                            "point": [
+                                                                195,
+                                                                -30,
+                                                                197.74348449707,
+                                                                106.7158203125,
+                                                                233,
+                                                                183.857147216797,
+                                                                235,
+                                                                183.857147216797
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ],
+                                                    "posY": [
+                                                        {
+                                                            "point": [
+                                                                195,
+                                                                0,
+                                                                195.40071105957,
+                                                                -235.813186645508,
+                                                                231.931503295898,
+                                                                -602.788757324219,
+                                                                235,
+                                                                -390.696411132812
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    0,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_3.json",
+                                                    "frame": 101
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1.29999995231628
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ball_02",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anime": {
+                                                    "posX": [
+                                                        {
+                                                            "point": [
+                                                                195,
+                                                                15,
+                                                                197,
+                                                                15,
+                                                                229.47395324707,
+                                                                53.6510200500488,
+                                                                235,
+                                                                106.714286804199
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ],
+                                                    "posY": [
+                                                        {
+                                                            "point": [
+                                                                195,
+                                                                25,
+                                                                198.424652099609,
+                                                                64.0006561279297,
+                                                                227.918228149414,
+                                                                61.4275856018066,
+                                                                235,
+                                                                -365.006622314453
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    15,
+                                                    25,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_3.json",
+                                                    "frame": 101
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1.29999995231628
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ball_03",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anime": {
+                                                    "posX": [
+                                                        {
+                                                            "point": [
+                                                                190,
+                                                                -15,
+                                                                192,
+                                                                -15,
+                                                                229.950729370117,
+                                                                2.84694004058838,
+                                                                230,
+                                                                136.428573608398
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ],
+                                                    "posY": [
+                                                        {
+                                                            "point": [
+                                                                190,
+                                                                25,
+                                                                191.807754516602,
+                                                                78.9367294311523,
+                                                                221.766296386719,
+                                                                292.764526367188,
+                                                                230,
+                                                                -173.714279174805
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    -15,
+                                                    25,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_3.json",
+                                                    "frame": 101
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1.29999995231628
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ball_04",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anime": {
+                                                    "posX": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                -15,
+                                                                202,
+                                                                -15,
+                                                                234.811721801758,
+                                                                -21.8448944091797,
+                                                                235,
+                                                                144.714279174805
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ],
+                                                    "posY": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                -25,
+                                                                201.592468261719,
+                                                                -435.328399658203,
+                                                                229.808792114258,
+                                                                -544.749328613281,
+                                                                235,
+                                                                -572.104553222656
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    -15,
+                                                    -25,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_3.json",
+                                                    "frame": 101
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1.29999995231628
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ball_05",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anime": {
+                                                    "posX": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                15,
+                                                                202.964324951172,
+                                                                148.3994140625,
+                                                                233,
+                                                                197.204086303711,
+                                                                235,
+                                                                197.204086303711
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ],
+                                                    "posY": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                -25,
+                                                                202.838333129883,
+                                                                -56.9030609130859,
+                                                                233,
+                                                                -73.2857131958008,
+                                                                235,
+                                                                -73.2857131958008
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    15,
+                                                    -25,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/70553/pb_70553_shot_3.json",
+                                                    "frame": 101
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1.29999995231628
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ball_06",
+                                            "type": "particle"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "new_nul",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "ball_nul",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    -15,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/pb_lb_aura_big.json",
+                                    "frame": 71
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_aura",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_launch_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

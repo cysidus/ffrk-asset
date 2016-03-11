@@ -1,0 +1,804 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 120
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 0,
+            "id": "se_ability_00020"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 3,
+            "id": "se_ability_00021"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 75,
+            "id": "se_ability_00025"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "火 12月 9 14:04:49 2014",
+        "date": "火 2月 24 11:21:33 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            0,
+            150,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    226.67724609375,
+                    191.611663818359,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            3,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                0,
+                                                35,
+                                                10,
+                                                35,
+                                                20,
+                                                55,
+                                                30,
+                                                55
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    35,
+                                    -20,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_shield.json",
+                                    "frame": 3
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_shield",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_circle.json",
+                                    "frame": 0
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_circle",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                30,
+                                                0,
+                                                50,
+                                                0,
+                                                210,
+                                                -50,
+                                                230,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        36,
+                                                        0,
+                                                        56,
+                                                        0,
+                                                        216,
+                                                        720,
+                                                        236,
+                                                        720
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    0.196078431372549,
+                                                    0.392156862745098
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    -30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    0.600000023841858,
+                                                    0.600000023841858
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_3_1",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    0.392156862745098,
+                                                    0.196078431372549,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    30,
+                                                    -30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    90
+                                                ],
+                                                "scale": [
+                                                    0.600000023841858,
+                                                    0.600000023841858
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_3_2",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    0.235294117647059
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    270
+                                                ],
+                                                "scale": [
+                                                    0.600000023841858,
+                                                    0.600000023841858
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_3_3",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    0.196078431372549,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    30,
+                                                    30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    270
+                                                ],
+                                                "scale": [
+                                                    0.600000023841858,
+                                                    0.600000023841858
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_3_4",
+                                            "type": "particle"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "nul_4particles_3",
+                                    "type": "null"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        33,
+                                                        0,
+                                                        53,
+                                                        0,
+                                                        213,
+                                                        720,
+                                                        233,
+                                                        720
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    0.196078431372549,
+                                                    0.392156862745098
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    -30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    0.800000011920929,
+                                                    0.800000011920929
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_2_1",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    0.392156862745098,
+                                                    0.196078431372549,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    30,
+                                                    -30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    90
+                                                ],
+                                                "scale": [
+                                                    0.800000011920929,
+                                                    0.800000011920929
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_2_2",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    0.235294117647059
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    270
+                                                ],
+                                                "scale": [
+                                                    0.800000011920929,
+                                                    0.800000011920929
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_2_3",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    0.196078431372549,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    30,
+                                                    30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    270
+                                                ],
+                                                "scale": [
+                                                    0.800000011920929,
+                                                    0.800000011920929
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_2_4",
+                                            "type": "particle"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "nul_4particles_2",
+                                    "type": "null"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        30,
+                                                        0,
+                                                        50,
+                                                        0,
+                                                        210,
+                                                        720,
+                                                        230,
+                                                        720
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    0.196078431372549,
+                                                    0.392156862745098
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    -30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_1_1",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    0.392156862745098,
+                                                    0.196078431372549,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    30,
+                                                    -30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    90
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_1_2",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    0.235294117647059
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    270
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_1_3",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    0.196078431372549,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    30,
+                                                    30,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/50602/pb_ball.json",
+                                                    "frame": 30
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    270
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "ring_particle_1_4",
+                                            "type": "particle"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "nul_4particles_1",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_4particle_scale",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

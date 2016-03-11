@@ -1,0 +1,409 @@
+{
+    "action": [],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140627_0",
+        "core_ver": "1.0",
+        "created_date": "水 6月 18 17:26:47 2014",
+        "date": "水 7月 23 21:47:23 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            35,
+            1
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    480,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": true
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            48,
+                            -40,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": false,
+                                "frame": [
+                                    -20,
+                                    16,
+                                    0,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    2,
+                                    2
+                                ],
+                                "sprite": {
+                                    "action": "walk",
+                                    "file": "/Content/lang/ww/compile/en/ab/loading/loading_chocobo.sajson",
+                                    "frame": 1
+                                },
+                                "visible": true
+                            },
+                            "name": "chocobo_sprite",
+                            "type": "sprite"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    1
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    -1,
+                                    33,
+                                    185,
+                                    19
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.json",
+                                    "packerid": "loading_text.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.png",
+                                    "uvs": [
+                                        0.00390625,
+                                        0.9140625,
+                                        0.72265625,
+                                        0.07421875
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "txt_loading_img",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                0,
+                                                0,
+                                                2,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                2,
+                                                1,
+                                                20,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                20,
+                                                1,
+                                                22,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": false,
+                                "frame": [
+                                    95,
+                                    32,
+                                    6,
+                                    5
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.json",
+                                    "packerid": "loading_text_dot.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.png",
+                                    "uvs": [
+                                        0.73046875,
+                                        0.9140625,
+                                        0.0234375,
+                                        0.01953125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "dot_img",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                5,
+                                                0,
+                                                7,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                7,
+                                                1,
+                                                25,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                25,
+                                                1,
+                                                27,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": false,
+                                "frame": [
+                                    99,
+                                    32,
+                                    6,
+                                    5
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.json",
+                                    "packerid": "loading_text_dot.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.png",
+                                    "uvs": [
+                                        0.73046875,
+                                        0.9140625,
+                                        0.0234375,
+                                        0.01953125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "dot_img_01",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                10,
+                                                0,
+                                                12,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                12,
+                                                1,
+                                                30,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                30,
+                                                1,
+                                                32,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": false,
+                                "frame": [
+                                    103,
+                                    32,
+                                    6,
+                                    5
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.json",
+                                    "packerid": "loading_text_dot.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/loading/img_loading_01.png",
+                                    "uvs": [
+                                        0.73046875,
+                                        0.9140625,
+                                        0.0234375,
+                                        0.01953125
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "dot_img_02",
+                            "type": "image"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "loading_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

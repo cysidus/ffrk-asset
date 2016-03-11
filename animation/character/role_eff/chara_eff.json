@@ -1,0 +1,189 @@
+{
+    "action": [
+        {
+            "actionName": "action_setVisible",
+            "frame": 1,
+            "node": "status_bonus_eff_sprite",
+            "visible": "true"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 1001,
+            "node": "status_bonus_eff_sprite",
+            "visible": "false"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20150609_0",
+        "core_ver": "1.0",
+        "created_date": "火 1月 28 15:32:36 2014",
+        "date": "火 8月 11 12:14:50 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            2,
+            0
+        ],
+        "stop": [
+            1001,
+            1002,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1.5,
+                    1.5
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            1
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            -9,
+                                            0,
+                                            0
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.25,
+                                            0.319999992847443
+                                        ],
+                                        "sprite": {
+                                            "action": "action0",
+                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/lb_aura_purple.sajson",
+                                            "frame": 1
+                                        },
+                                        "visible": true
+                                    },
+                                    "name": "status_bonus_eff_sprite",
+                                    "type": "sprite"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "status_bonus_chara_nul",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": false,
+                    "name": "status_bonus_eff_chara_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": false,
+            "name": "base_visible_nul",
+            "type": "null"
+        }
+    ]
+}

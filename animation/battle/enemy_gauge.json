@@ -1,0 +1,1765 @@
+{
+    "action": [],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20150128_0",
+        "core_ver": "1.0",
+        "created_date": "水 12月 11 14:12:20 2013",
+        "date": "月 3月 23 15:29:20 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "bar": [
+            401,
+            500,
+            0
+        ],
+        "bar_close": [
+            1001,
+            1010,
+            0
+        ],
+        "bar_light_loop": [
+            501,
+            530,
+            1
+        ],
+        "bar_open": [
+            101,
+            110,
+            0
+        ],
+        "bar_reverse": [
+            601,
+            700,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 0,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "anime": {
+                            "alpha": [
+                                {
+                                    "point": [
+                                        101,
+                                        0,
+                                        110,
+                                        1
+                                    ],
+                                    "type": "liner"
+                                },
+                                {
+                                    "point": [
+                                        110,
+                                        1,
+                                        1001,
+                                        1
+                                    ],
+                                    "type": "liner"
+                                },
+                                {
+                                    "point": [
+                                        1001,
+                                        1,
+                                        1010,
+                                        0
+                                    ],
+                                    "type": "liner"
+                                }
+                            ]
+                        },
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            0.5,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    96,
+                                    17
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                    "packerid": "enemy_gauge_base.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                    "uvs": [
+                                        0.37890625,
+                                        0.5625,
+                                        0.375,
+                                        0.265625
+                                    ]
+                                },
+                                "ninepatch": {
+                                    "bottom": 6.72727272727273,
+                                    "left": 39.1836734693878,
+                                    "right": 55.8163265306122,
+                                    "top": 9.27272727272727
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "hp_gauge_base_img_01",
+                            "type": "window"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -42,
+                                            -1,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "scaleX": [
+                                                        {
+                                                            "point": [
+                                                                401,
+                                                                1,
+                                                                500,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                0,
+                                                                601,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                601,
+                                                                0,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    0.541176470588235,
+                                                    0.0392156862745098,
+                                                    0.00392156862745098
+                                                ],
+                                                "filtering": true,
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    86,
+                                                    8
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                                    "packerid": "enemy_gauge01.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                                    "uvs": [
+                                                        0.6328125,
+                                                        0.84375,
+                                                        0.3359375,
+                                                        0.09375
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "hp_gauge_bar_red_img_01",
+                                            "type": "image"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "image_uvs_2": [
+                                                        {
+                                                            "point": [
+                                                                400,
+                                                                1,
+                                                                410,
+                                                                1.10000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                410,
+                                                                1.10000002384186,
+                                                                425,
+                                                                1.35000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                425,
+                                                                1.35000002384186,
+                                                                430,
+                                                                1.39999997615814
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                430,
+                                                                1.39999997615814,
+                                                                440,
+                                                                1.70000004768372
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                440,
+                                                                1.70000004768372,
+                                                                450,
+                                                                2
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                450,
+                                                                2,
+                                                                460,
+                                                                2.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                460,
+                                                                2.5,
+                                                                470,
+                                                                3.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                470,
+                                                                3.5,
+                                                                480,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                480,
+                                                                5,
+                                                                500,
+                                                                10
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                10,
+                                                                600,
+                                                                10
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                600,
+                                                                10,
+                                                                620,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                620,
+                                                                5,
+                                                                630,
+                                                                3.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                630,
+                                                                3.5,
+                                                                640,
+                                                                2.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                640,
+                                                                2.5,
+                                                                650,
+                                                                2
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                650,
+                                                                2,
+                                                                660,
+                                                                1.70000004768372
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                660,
+                                                                1.70000004768372,
+                                                                670,
+                                                                1.39999997615814
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                670,
+                                                                1.39999997615814,
+                                                                675,
+                                                                1.35000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                675,
+                                                                1.35000002384186,
+                                                                690,
+                                                                1.10000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                690,
+                                                                1.10000002384186,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ],
+                                                    "scaleX": [
+                                                        {
+                                                            "point": [
+                                                                401,
+                                                                1,
+                                                                500,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                0,
+                                                                601,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                601,
+                                                                0,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": true,
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    86,
+                                                    8
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                                    "packerid": "enemy_gauge01.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                                    "uvs": [
+                                                        0.6328125,
+                                                        0.84375,
+                                                        0.3359375,
+                                                        0.09375
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "hp_gauge_bar_img_01",
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "gauge_hp_nul_01",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "gauge_pos_nul_01",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    96,
+                                    17
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                    "packerid": "enemy_gauge_frame.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                    "uvs": [
+                                        0,
+                                        0.5625,
+                                        0.375,
+                                        0.265625
+                                    ]
+                                },
+                                "ninepatch": {
+                                    "bottom": 6.72727272727273,
+                                    "left": 39.1836734693878,
+                                    "right": 55.8163265306122,
+                                    "top": 9.27272727272727
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "hp_gauge_base_frame_img_01",
+                            "type": "window"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "enemy_gauge_nul_01",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 0,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "anime": {
+                            "alpha": [
+                                {
+                                    "point": [
+                                        101,
+                                        0,
+                                        110,
+                                        1
+                                    ],
+                                    "type": "liner"
+                                },
+                                {
+                                    "point": [
+                                        110,
+                                        1,
+                                        1001,
+                                        1
+                                    ],
+                                    "type": "liner"
+                                },
+                                {
+                                    "point": [
+                                        1001,
+                                        1,
+                                        1010,
+                                        0
+                                    ],
+                                    "type": "liner"
+                                }
+                            ]
+                        },
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    96,
+                                    17
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                    "packerid": "enemy_gauge_base.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                    "uvs": [
+                                        0.37890625,
+                                        0.5625,
+                                        0.375,
+                                        0.265625
+                                    ]
+                                },
+                                "ninepatch": {
+                                    "bottom": 6.72727272727273,
+                                    "left": 39.1836734693878,
+                                    "right": 55.8163265306122,
+                                    "top": 9.27272727272727
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "hp_gauge_base_img_02",
+                            "type": "window"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -42,
+                                            -1,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "scaleX": [
+                                                        {
+                                                            "point": [
+                                                                401,
+                                                                1,
+                                                                500,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                0,
+                                                                601,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                601,
+                                                                0,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    0.541176470588235,
+                                                    0.0392156862745098,
+                                                    0.00392156862745098
+                                                ],
+                                                "filtering": true,
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    86,
+                                                    8
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                                    "packerid": "enemy_gauge01.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                                    "uvs": [
+                                                        0.6328125,
+                                                        0.84375,
+                                                        0.3359375,
+                                                        0.09375
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "hp_gauge_bar_red_img_02",
+                                            "type": "image"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "image_uvs_2": [
+                                                        {
+                                                            "point": [
+                                                                400,
+                                                                1,
+                                                                410,
+                                                                1.10000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                410,
+                                                                1.10000002384186,
+                                                                425,
+                                                                1.35000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                425,
+                                                                1.35000002384186,
+                                                                430,
+                                                                1.39999997615814
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                430,
+                                                                1.39999997615814,
+                                                                440,
+                                                                1.70000004768372
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                440,
+                                                                1.70000004768372,
+                                                                450,
+                                                                2
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                450,
+                                                                2,
+                                                                460,
+                                                                2.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                460,
+                                                                2.5,
+                                                                470,
+                                                                3.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                470,
+                                                                3.5,
+                                                                480,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                480,
+                                                                5,
+                                                                500,
+                                                                10
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                10,
+                                                                600,
+                                                                10
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                600,
+                                                                10,
+                                                                620,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                620,
+                                                                5,
+                                                                630,
+                                                                3.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                630,
+                                                                3.5,
+                                                                640,
+                                                                2.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                640,
+                                                                2.5,
+                                                                650,
+                                                                2
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                650,
+                                                                2,
+                                                                660,
+                                                                1.70000004768372
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                660,
+                                                                1.70000004768372,
+                                                                670,
+                                                                1.39999997615814
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                670,
+                                                                1.39999997615814,
+                                                                675,
+                                                                1.35000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                675,
+                                                                1.35000002384186,
+                                                                690,
+                                                                1.10000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                690,
+                                                                1.10000002384186,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ],
+                                                    "scaleX": [
+                                                        {
+                                                            "point": [
+                                                                401,
+                                                                1,
+                                                                500,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                0,
+                                                                601,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                601,
+                                                                0,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": true,
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    86,
+                                                    8
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                                    "packerid": "enemy_gauge01.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                                    "uvs": [
+                                                        0.6328125,
+                                                        0.84375,
+                                                        0.3359375,
+                                                        0.09375
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "hp_gauge_bar_img_02",
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "gauge_hp_nul_02",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "gauge_pos_nul_02",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    96,
+                                    17
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                    "packerid": "enemy_gauge_frame.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                    "uvs": [
+                                        0,
+                                        0.5625,
+                                        0.375,
+                                        0.265625
+                                    ]
+                                },
+                                "ninepatch": {
+                                    "bottom": 6.72727272727273,
+                                    "left": 39.1836734693878,
+                                    "right": 55.8163265306122,
+                                    "top": 9.27272727272727
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "hp_gauge_base_frame_img_02",
+                            "type": "window"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "enemy_gauge_nul_02",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 0,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "anime": {
+                            "alpha": [
+                                {
+                                    "point": [
+                                        101,
+                                        0,
+                                        110,
+                                        1
+                                    ],
+                                    "type": "liner"
+                                },
+                                {
+                                    "point": [
+                                        110,
+                                        1,
+                                        1001,
+                                        1
+                                    ],
+                                    "type": "liner"
+                                },
+                                {
+                                    "point": [
+                                        1001,
+                                        1,
+                                        1010,
+                                        0
+                                    ],
+                                    "type": "liner"
+                                }
+                            ]
+                        },
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    171,
+                                    17
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                    "packerid": "boss_gauge_base.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                    "uvs": [
+                                        0,
+                                        0.28125,
+                                        0.66796875,
+                                        0.265625
+                                    ]
+                                },
+                                "ninepatch": {
+                                    "bottom": 6.72727272727273,
+                                    "left": 69.7959183673469,
+                                    "right": 100.204081632653,
+                                    "top": 9.27272727272727
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "hp_gauge_base_img_03",
+                            "type": "window"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -81,
+                                            -1,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "scaleX": [
+                                                        {
+                                                            "point": [
+                                                                401,
+                                                                1,
+                                                                500,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                0,
+                                                                601,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                601,
+                                                                0,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    0.541176470588235,
+                                                    0.0392156862745098,
+                                                    0.00392156862745098
+                                                ],
+                                                "filtering": true,
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    161,
+                                                    8
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                                    "packerid": "boss_gauge01.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                                    "uvs": [
+                                                        0,
+                                                        0.84375,
+                                                        0.62890625,
+                                                        0.09375
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "hp_gauge_bar_red_img_03",
+                                            "type": "image"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "image_uvs_2": [
+                                                        {
+                                                            "point": [
+                                                                400,
+                                                                1,
+                                                                410,
+                                                                1.10000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                410,
+                                                                1.10000002384186,
+                                                                425,
+                                                                1.35000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                425,
+                                                                1.35000002384186,
+                                                                430,
+                                                                1.39999997615814
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                430,
+                                                                1.39999997615814,
+                                                                440,
+                                                                1.70000004768372
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                440,
+                                                                1.70000004768372,
+                                                                450,
+                                                                2
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                450,
+                                                                2,
+                                                                460,
+                                                                2.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                460,
+                                                                2.5,
+                                                                470,
+                                                                3.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                470,
+                                                                3.5,
+                                                                480,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                480,
+                                                                5,
+                                                                500,
+                                                                10
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                10,
+                                                                600,
+                                                                10
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                600,
+                                                                10,
+                                                                620,
+                                                                5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                620,
+                                                                5,
+                                                                630,
+                                                                3.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                630,
+                                                                3.5,
+                                                                640,
+                                                                2.5
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                640,
+                                                                2.5,
+                                                                650,
+                                                                2
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                650,
+                                                                2,
+                                                                660,
+                                                                1.70000004768372
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                660,
+                                                                1.70000004768372,
+                                                                670,
+                                                                1.39999997615814
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                670,
+                                                                1.39999997615814,
+                                                                675,
+                                                                1.35000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                675,
+                                                                1.35000002384186,
+                                                                690,
+                                                                1.10000002384186
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                690,
+                                                                1.10000002384186,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ],
+                                                    "scaleX": [
+                                                        {
+                                                            "point": [
+                                                                401,
+                                                                1,
+                                                                500,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                0,
+                                                                601,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                601,
+                                                                0,
+                                                                700,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": true,
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    161,
+                                                    8
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                                    "packerid": "boss_gauge01.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                                    "uvs": [
+                                                        0,
+                                                        0.84375,
+                                                        0.62890625,
+                                                        0.09375
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "hp_gauge_bar_img_03",
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "gauge_hp_nul_03",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "gauge_pos_nul_03",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    171,
+                                    17
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.json",
+                                    "packerid": "boss_gauge_frame.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle/img_battle_ui_2.png",
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        0.66796875,
+                                        0.265625
+                                    ]
+                                },
+                                "ninepatch": {
+                                    "bottom": 6.72727272727273,
+                                    "left": 69.7959183673469,
+                                    "right": 100.204081632653,
+                                    "top": 9.27272727272727
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "hp_gauge_base_frame_img_03",
+                            "type": "window"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "enemy_gauge_nul_03",
+                    "type": "null"
+                }
+            ],
+            "isCreate": false,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

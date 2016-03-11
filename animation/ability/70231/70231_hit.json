@@ -1,0 +1,504 @@
+{
+    "action": [
+        {
+            "actionName": "action_special_name_out",
+            "frame": 39
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 7,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "": "",
+            "actionName": "action_next",
+            "frame": 39
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 69,
+            "layer": "layer_battle_field",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 25,
+            "id": "se_ability_00250"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140612_0",
+        "core_ver": "1.0",
+        "created_date": "木 1月 9 19:49:55 2014",
+        "date": "木 6月 26 23:10:07 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            70,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70231/pb_70231_hit.json",
+                                    "frame": 2
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.75,
+                                    0.75
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_delay",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                0,
+                                                1,
+                                                55,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                55,
+                                                1,
+                                                70,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                0,
+                                                0.5,
+                                                10,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                10,
+                                                1,
+                                                15,
+                                                1.10000002384186
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                15,
+                                                1.10000002384186,
+                                                20,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                20,
+                                                1,
+                                                60,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                60,
+                                                1,
+                                                70,
+                                                1.10000002384186
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "scaleY": [
+                                        {
+                                            "point": [
+                                                0,
+                                                0.5,
+                                                10,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                10,
+                                                1,
+                                                15,
+                                                1.10000002384186
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                15,
+                                                1.10000002384186,
+                                                20,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                20,
+                                                1,
+                                                60,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                60,
+                                                1,
+                                                70,
+                                                1.10000002384186
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "add",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_clock_parts_001.json",
+                                            "packerid": "64_clock_101_wb.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_clock_parts_001.png",
+                                            "uvs": [
+                                                0.5,
+                                                0,
+                                                0.5,
+                                                0.5
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "img_waku",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        0,
+                                                        0,
+                                                        30,
+                                                        298.285705566406
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        30,
+                                                        298.285705566406,
+                                                        35.0515289306641,
+                                                        348.428558349609,
+                                                        53.8080406188965,
+                                                        357.428558349609,
+                                                        70,
+                                                        360
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "add",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_clock_parts_001.json",
+                                            "packerid": "64_clock_201_wb.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_clock_parts_001.png",
+                                            "uvs": [
+                                                0,
+                                                0.5,
+                                                0.5,
+                                                0.5
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "img_short",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        0,
+                                                        0,
+                                                        5,
+                                                        215.000015258789
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        5,
+                                                        215.000015258789,
+                                                        25.9414119720459,
+                                                        297.5,
+                                                        65,
+                                                        360,
+                                                        70,
+                                                        360
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "add",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": true,
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_clock_parts_001.json",
+                                            "packerid": "64_clock_301_wb.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_clock_parts_001.png",
+                                            "uvs": [
+                                                0,
+                                                0,
+                                                0.5,
+                                                0.5
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "img_long",
+                                    "type": "image"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_clock",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

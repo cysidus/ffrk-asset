@@ -1,0 +1,2036 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 1160
+        },
+        {
+            "actionName": "action_shake_part",
+            "frame": 1170,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_part"
+        },
+        {
+            "actionName": "action_shake_part_stop",
+            "frame": 1280,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1090,
+            "id": "se_ability_00311"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1175,
+            "id": "se_ability_00430"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1175,
+            "id": "se_ability_00690"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1180,
+            "id": "se_ability_00194"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1200,
+            "id": "se_ability_00172"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1215,
+            "id": "se_ability_00172"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1225,
+            "id": "se_ability_00172"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140912_0",
+        "core_ver": "1.0",
+        "created_date": "金 1 16 19:54:48 2015",
+        "date": "水 8 19 21:32:05 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "check": [
+            1070,
+            1330,
+            1
+        ],
+        "play": [
+            1000,
+            1330,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1080,
+                                                0,
+                                                1100,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                1080,
+                                                3,
+                                                1111.20251464844,
+                                                1.26937985420227,
+                                                1154.39416503906,
+                                                0.947674512863159,
+                                                1160,
+                                                1
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1160,
+                                                1,
+                                                1165.60583496094,
+                                                1.05232548713684,
+                                                1165,
+                                                0,
+                                                1170,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "scaleY": [
+                                        {
+                                            "point": [
+                                                1080,
+                                                1.5,
+                                                1102.42077636719,
+                                                0.712287306785583,
+                                                1154.16467285156,
+                                                0.454069793224335,
+                                                1160,
+                                                0.5
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1160,
+                                                0.5,
+                                                1165.83532714844,
+                                                0.545930206775665,
+                                                1165,
+                                                0,
+                                                1170,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -55.2985534667969,
+                                    -53.7392959594727,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    3,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        1080,
+                                                        0,
+                                                        1150,
+                                                        1200
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            16.8910331726074,
+                                            19.2296886444092,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                1080,
+                                                                0,
+                                                                1150,
+                                                                -1200
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    -100,
+                                                    0,
+                                                    64,
+                                                    64
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    2
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.458823529411765,
+                                                            0.83921568627451,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_a1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.113725490196078,
+                                                            0.32156862745098,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_a2",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "anime": {
+                                                            "blue": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "green": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0.7843137383461
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "red": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_a1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 0.7843137383461,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_a2",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "nul_ball_group_a",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                1080,
+                                                                0,
+                                                                1150,
+                                                                -1200
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    100,
+                                                    0,
+                                                    64,
+                                                    64
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    2
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.458823529411765,
+                                                            0.83921568627451,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_b1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.113725490196078,
+                                                            0.32156862745098,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_b2",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "anime": {
+                                                            "blue": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "green": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0.7843137383461
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "red": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_b1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 0.7843137383461,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_b2",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "nul_ball_group_b",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                1080,
+                                                                0,
+                                                                1150,
+                                                                -1200
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    100,
+                                                    64,
+                                                    64
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    2
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.458823529411765,
+                                                            0.83921568627451,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_c1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.113725490196078,
+                                                            0.32156862745098,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_c2",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "anime": {
+                                                            "blue": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "green": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0.7843137383461
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "red": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_c1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 0.7843137383461,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_c2",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "nul_ball_group_c",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                1080,
+                                                                0,
+                                                                1150,
+                                                                -1200
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    -100,
+                                                    64,
+                                                    64
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    2
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.458823529411765,
+                                                            0.83921568627451,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_d1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            0.113725490196078,
+                                                            0.32156862745098,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                                            "packerid": "eff_light01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                                            "uvs": [
+                                                                0.00390625,
+                                                                0.578125,
+                                                                0.25,
+                                                                0.25
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1.39999997615814,
+                                                            1.39999997615814
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_glow_d2",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "anime": {
+                                                            "blue": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "green": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        0.7843137383461
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ],
+                                                            "red": [
+                                                                {
+                                                                    "point": [
+                                                                        1160,
+                                                                        1,
+                                                                        1165,
+                                                                        1
+                                                                    ],
+                                                                    "type": "liner"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_d1",
+                                                    "type": "image"
+                                                },
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 0.7843137383461,
+                                                        "anchor": [
+                                                            0.5,
+                                                            0.5
+                                                        ],
+                                                        "blend": "add",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": true,
+                                                        "frame": [
+                                                            0,
+                                                            0,
+                                                            56,
+                                                            56
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.json",
+                                                            "packerid": "orso_img_other_0001.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/orso_img_002.png",
+                                                            "uvs": [
+                                                                0.49609375,
+                                                                0.0078125,
+                                                                0.21875,
+                                                                0.21875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "img_ball_d2",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "nul_ball_group_d",
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "nul_ball_rotation",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_ball_scale",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                1170,
+                                                0,
+                                                1180,
+                                                0,
+                                                1172.388671875,
+                                                0.314834594726562,
+                                                1180,
+                                                0.600000023841858
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1180,
+                                                0.600000023841858,
+                                                1190,
+                                                0.5
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1190,
+                                                0.5,
+                                                1191.01599121094,
+                                                1.24541914463043,
+                                                1190.60961914062,
+                                                1.9730441570282,
+                                                1195,
+                                                2
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "scaleY": [
+                                        {
+                                            "point": [
+                                                1170,
+                                                0,
+                                                1180,
+                                                0,
+                                                1174.21752929688,
+                                                0.314834594726562,
+                                                1180,
+                                                0.600000023841858
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1180,
+                                                0.600000023841858,
+                                                1190,
+                                                0.5
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1190,
+                                                0.5,
+                                                1191.01599121094,
+                                                1.2119448184967,
+                                                1190,
+                                                2,
+                                                1195,
+                                                2
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -43.0663833618164,
+                                    -47.2203941345215,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    -8.13576316833496
+                                ],
+                                "scale": [
+                                    0,
+                                    0
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_power.json",
+                                            "frame": 1175
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            -11.296854019165
+                                        ],
+                                        "scale": [
+                                            0.699999988079071,
+                                            0.400000005960465
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_power_a",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            1.45521903038025,
+                                            -7.69188499450684,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_power.json",
+                                            "frame": 1180
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            -11.296854019165
+                                        ],
+                                        "scale": [
+                                            0.699999988079071,
+                                            0.400000005960465
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_power_b",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_cross_power",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -9.19910144805908,
+                                    -3.01443338394165,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -178.931213378906,
+                                            -99.4466018676758,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1220
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_a1",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -140.585098266602,
+                                            -82.9997406005859,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1210
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_a2",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -102.17756652832,
+                                            -63.7700042724609,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1200
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_a3",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            62.3667755126953,
+                                            -134.820816040039,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1220
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_b1",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            26.6948909759521,
+                                            -99.6025619506836,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1210
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_b2",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -26.5295181274414,
+                                            -67.6112594604492,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1200
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_b3",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -26.9216289520264,
+                                            -44.488338470459,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_center_flare.json",
+                                            "frame": 1170
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1.5,
+                                            1.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_center_flare",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            16.1114273071289,
+                                            -26.1420631408691,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1200
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_c1",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            45.3198623657227,
+                                            -6.91223573684692,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1210
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_c2",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            106.803085327148,
+                                            19.177806854248,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1220
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_c3",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -74.5282897949219,
+                                            -11.5378513336182,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1200
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_d1",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -120.575759887695,
+                                            26.8697395324707,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1210
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_d2",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -159.035247802734,
+                                            65.2772674560547,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_cross_bomb.json",
+                                            "frame": 1220
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "ptcl_cross_bomb_d3",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_cross_bomb",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -40.6349105834961,
+                                    -55.6437911987305,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70748/pb_shot_ball_thunder.json",
+                                    "frame": 1070
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_ball_thunder",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

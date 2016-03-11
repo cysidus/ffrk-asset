@@ -1,0 +1,1820 @@
+{
+    "action": [
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 71,
+            "layer": "layer_battle_field",
+            "node": "bg_color_win",
+            "tag": "bg_color_black"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 101,
+            "id": "se_ability_00194"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 101,
+            "id": "se_ability_00720"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 200,
+            "id": "se_ability_00580"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 250,
+            "id": "se_ability_00580"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 320,
+            "id": "se_ability_00570"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 320,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 330,
+            "id": "se_ability_00340"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 380,
+            "id": "se_ability_00501"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 390,
+            "id": "se_ability_00502"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 544
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 549,
+            "layer": "layer_battle_field",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_special_name_out",
+            "frame": 549
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140822_3",
+        "core_ver": "1.0",
+        "created_date": "火 7月 22 22:53:30 2014",
+        "date": "月 9月 22 13:19:14 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            71,
+            560,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                120,
+                                                0,
+                                                145,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                145,
+                                                1,
+                                                540,
+                                                1
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                540,
+                                                1,
+                                                550,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                120,
+                                                0,
+                                                124.953567504883,
+                                                -30.7142868041992,
+                                                133.868637084961,
+                                                -72.6824798583984,
+                                                150,
+                                                -80
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                150,
+                                                -80,
+                                                160,
+                                                -80,
+                                                150,
+                                                -50,
+                                                160,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                160,
+                                                -50,
+                                                180,
+                                                -50,
+                                                170,
+                                                -45,
+                                                190,
+                                                -45
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                190,
+                                                -45,
+                                                210,
+                                                -45,
+                                                200,
+                                                -50,
+                                                220,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                220,
+                                                -50,
+                                                240,
+                                                -50,
+                                                230,
+                                                -45,
+                                                250,
+                                                -45
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                250,
+                                                -45,
+                                                270,
+                                                -45,
+                                                260,
+                                                -50,
+                                                280,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                280,
+                                                -50,
+                                                300,
+                                                -50,
+                                                280,
+                                                -45,
+                                                300,
+                                                -45
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                300,
+                                                -45,
+                                                320,
+                                                -45,
+                                                310,
+                                                -50,
+                                                330,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                330,
+                                                -50,
+                                                350,
+                                                -50,
+                                                340,
+                                                -45,
+                                                360,
+                                                -45
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                360,
+                                                -45,
+                                                380,
+                                                -45,
+                                                370,
+                                                -50,
+                                                390,
+                                                -50
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "rotZ": [
+                                        {
+                                            "point": [
+                                                320,
+                                                0,
+                                                330,
+                                                0,
+                                                330,
+                                                5,
+                                                340,
+                                                5
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                340,
+                                                5,
+                                                350,
+                                                5,
+                                                370,
+                                                5,
+                                                380,
+                                                5
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                380,
+                                                5,
+                                                390,
+                                                5,
+                                                380,
+                                                -15,
+                                                390,
+                                                -15
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                390,
+                                                -15,
+                                                500,
+                                                -15
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                500,
+                                                -15,
+                                                510,
+                                                -15,
+                                                510,
+                                                0,
+                                                520,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                120,
+                                                1.5,
+                                                125,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                125,
+                                                0,
+                                                130,
+                                                1.5
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                130,
+                                                1.5,
+                                                135,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                135,
+                                                0,
+                                                140,
+                                                1.5
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                140,
+                                                1.5,
+                                                145,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                145,
+                                                0,
+                                                150,
+                                                1.5
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                150,
+                                                1.5,
+                                                155,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                155,
+                                                0,
+                                                160,
+                                                1.5
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    100,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.5,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.880597014925373,
+                                            0.12
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        200,
+                                                        0,
+                                                        205,
+                                                        0,
+                                                        215.377975463867,
+                                                        89.0357131958008,
+                                                        220,
+                                                        90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        220,
+                                                        90,
+                                                        224.622024536133,
+                                                        90.9642868041992,
+                                                        220.000015258789,
+                                                        90.9642868041992,
+                                                        225,
+                                                        90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        225,
+                                                        90,
+                                                        229.999984741211,
+                                                        89.0357131958008,
+                                                        239.762557983398,
+                                                        26,
+                                                        245,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        245,
+                                                        0,
+                                                        250.237442016602,
+                                                        -26,
+                                                        249.821914672852,
+                                                        -26,
+                                                        255,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        255,
+                                                        0,
+                                                        260.178100585938,
+                                                        26,
+                                                        270.377990722656,
+                                                        89.0357131958008,
+                                                        275,
+                                                        90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        275,
+                                                        90,
+                                                        279.622009277344,
+                                                        90.9642868041992,
+                                                        275,
+                                                        90.9642868041992,
+                                                        280,
+                                                        90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        280,
+                                                        90,
+                                                        285,
+                                                        89.0357131958008,
+                                                        295,
+                                                        0,
+                                                        300,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        300,
+                                                        0,
+                                                        320,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        320,
+                                                        0,
+                                                        323.412231445312,
+                                                        -18.607141494751,
+                                                        325.031707763672,
+                                                        -20.5357131958008,
+                                                        380,
+                                                        -15
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        380,
+                                                        -15,
+                                                        390,
+                                                        -15,
+                                                        380,
+                                                        30,
+                                                        390,
+                                                        30
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        390,
+                                                        30,
+                                                        500,
+                                                        30
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        500,
+                                                        30,
+                                                        510,
+                                                        30,
+                                                        500,
+                                                        0,
+                                                        510,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -9.5,
+                                            -18.5,
+                                            19,
+                                            21
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                            "packerid": "108004_r_wing_1.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                            "uvs": [
+                                                0.1875,
+                                                0.015625,
+                                                0.1484375,
+                                                0.1640625
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.391304347826087,
+                                                    0.106666666666667
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                0,
+                                                                205,
+                                                                0,
+                                                                203.904876708984,
+                                                                -74.5714263916016,
+                                                                210,
+                                                                -60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                210,
+                                                                -60,
+                                                                216.095123291016,
+                                                                -45.4285697937012,
+                                                                225,
+                                                                60,
+                                                                230,
+                                                                60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                230,
+                                                                60,
+                                                                235,
+                                                                60,
+                                                                235,
+                                                                0,
+                                                                240,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                240,
+                                                                0,
+                                                                255,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                255,
+                                                                0,
+                                                                260,
+                                                                0,
+                                                                258.904876708984,
+                                                                -74.5714263916016,
+                                                                265,
+                                                                -60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                265,
+                                                                -60,
+                                                                271.095123291016,
+                                                                -45.4285697937012,
+                                                                280,
+                                                                60,
+                                                                285,
+                                                                60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                285,
+                                                                60,
+                                                                290,
+                                                                60,
+                                                                290,
+                                                                0,
+                                                                295,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                295,
+                                                                0,
+                                                                385,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                385,
+                                                                0,
+                                                                395,
+                                                                0,
+                                                                385,
+                                                                15,
+                                                                395,
+                                                                15
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                395,
+                                                                15,
+                                                                500,
+                                                                15
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                15,
+                                                                510,
+                                                                15,
+                                                                500,
+                                                                0,
+                                                                510,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": false,
+                                                "frame": [
+                                                    -12,
+                                                    17.5,
+                                                    9,
+                                                    29
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                                    "packerid": "108004_r_wing_2.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                                    "uvs": [
+                                                        0.3046875,
+                                                        0.734375,
+                                                        0.0703125,
+                                                        0.2265625
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "image_motion_right_wing_02",
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "name": "image_motion_right_wing_01",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.43010752688172,
+                                            0.133333333333333
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -5,
+                                            -5,
+                                            15,
+                                            12
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                            "packerid": "108004_b_wing.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                            "uvs": [
+                                                0.1875,
+                                                0.1953125,
+                                                0.1171875,
+                                                0.09375
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "image_motion_back",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -3,
+                                            -1.5,
+                                            20,
+                                            59
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                            "packerid": "108004_body.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                            "uvs": [
+                                                0.015625,
+                                                0.015625,
+                                                0.15625,
+                                                0.4609375
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.125,
+                                                    0.08
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                0,
+                                                                205,
+                                                                0,
+                                                                215,
+                                                                -10,
+                                                                220,
+                                                                -10
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                220,
+                                                                -10,
+                                                                225,
+                                                                -10,
+                                                                235.263870239258,
+                                                                -0.17857164144516,
+                                                                240,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                240,
+                                                                0,
+                                                                244.736129760742,
+                                                                0.17857164144516,
+                                                                244.477905273438,
+                                                                0.285714149475098,
+                                                                250,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                250,
+                                                                0,
+                                                                255.522079467773,
+                                                                -0.285714477300644,
+                                                                265,
+                                                                -10,
+                                                                270,
+                                                                -10
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                270,
+                                                                -10,
+                                                                275,
+                                                                -10,
+                                                                285,
+                                                                0,
+                                                                290,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": false,
+                                                "frame": [
+                                                    1,
+                                                    -5,
+                                                    22,
+                                                    29
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                                    "packerid": "108004_l_low_wing.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                                    "uvs": [
+                                                        0.1484375,
+                                                        0.4921875,
+                                                        0.171875,
+                                                        0.2265625
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "image_motion_low_wing_01",
+                                            "type": "image"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.95,
+                                                    0.106666666666667
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                0,
+                                                                205,
+                                                                0,
+                                                                215,
+                                                                10,
+                                                                220,
+                                                                10
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                220,
+                                                                10,
+                                                                225,
+                                                                10,
+                                                                233.431457519531,
+                                                                0.0714287832379341,
+                                                                240,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                240,
+                                                                0,
+                                                                246.568542480469,
+                                                                -0.0714287832379341,
+                                                                240.933715820312,
+                                                                -0.142857551574707,
+                                                                250,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                250,
+                                                                0,
+                                                                259.066284179688,
+                                                                0.142857357859612,
+                                                                260,
+                                                                10,
+                                                                270,
+                                                                10
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                270,
+                                                                10,
+                                                                275,
+                                                                10,
+                                                                285,
+                                                                0,
+                                                                290,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": false,
+                                                "frame": [
+                                                    -6.5,
+                                                    -5,
+                                                    7,
+                                                    26
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                                    "packerid": "108004_r_low_wing.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                                    "uvs": [
+                                                        0.015625,
+                                                        0.7734375,
+                                                        0.0546875,
+                                                        0.203125
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "image_motion_low_wing_02",
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "name": "image_motion_body",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.148148148148148,
+                                            0.16
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        200,
+                                                        0,
+                                                        205,
+                                                        0,
+                                                        215.287673950195,
+                                                        -88.0714263916016,
+                                                        220,
+                                                        -90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        220,
+                                                        -90,
+                                                        224.712326049805,
+                                                        -91.9285736083984,
+                                                        220.421234130859,
+                                                        -90,
+                                                        225,
+                                                        -90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        225,
+                                                        -90,
+                                                        229.578765869141,
+                                                        -90,
+                                                        240.356170654297,
+                                                        -16.7142848968506,
+                                                        245,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        245,
+                                                        0,
+                                                        249.643829345703,
+                                                        16.7142848968506,
+                                                        249.139266967773,
+                                                        13,
+                                                        255,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        255,
+                                                        0,
+                                                        260.860717773438,
+                                                        -13,
+                                                        270.287658691406,
+                                                        -88.0714263916016,
+                                                        275,
+                                                        -90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        275,
+                                                        -90,
+                                                        279.712341308594,
+                                                        -91.9285736083984,
+                                                        275.421234130859,
+                                                        -90,
+                                                        280,
+                                                        -90
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        280,
+                                                        -90,
+                                                        284.578765869141,
+                                                        -90,
+                                                        295,
+                                                        0,
+                                                        300,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        300,
+                                                        0,
+                                                        320,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        320,
+                                                        0,
+                                                        320.762176513672,
+                                                        21.2500019073486,
+                                                        325.178924560547,
+                                                        18.3571434020996,
+                                                        380,
+                                                        15
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        380,
+                                                        15,
+                                                        390,
+                                                        15,
+                                                        380,
+                                                        -30,
+                                                        390,
+                                                        -30
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        390,
+                                                        -30,
+                                                        500,
+                                                        -30
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        500,
+                                                        -30,
+                                                        510,
+                                                        -30,
+                                                        500,
+                                                        0,
+                                                        510,
+                                                        0
+                                                    ],
+                                                    "type": "spline"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            3,
+                                            -16,
+                                            26,
+                                            24
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                            "packerid": "108004_l_wing_1.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                            "uvs": [
+                                                0.0859375,
+                                                0.7734375,
+                                                0.203125,
+                                                0.1875
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.727272727272727,
+                                                    0.12
+                                                ],
+                                                "anime": {
+                                                    "rotZ": [
+                                                        {
+                                                            "point": [
+                                                                200,
+                                                                0,
+                                                                205,
+                                                                0,
+                                                                205,
+                                                                60,
+                                                                210,
+                                                                60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                210,
+                                                                60,
+                                                                215,
+                                                                60,
+                                                                225,
+                                                                -60,
+                                                                230,
+                                                                -60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                230,
+                                                                -60,
+                                                                235,
+                                                                -60,
+                                                                235,
+                                                                0,
+                                                                240,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                240,
+                                                                0,
+                                                                255,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                255,
+                                                                0,
+                                                                260,
+                                                                0,
+                                                                260,
+                                                                60,
+                                                                265,
+                                                                60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                265,
+                                                                60,
+                                                                270,
+                                                                60,
+                                                                280,
+                                                                -60,
+                                                                285,
+                                                                -60
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                285,
+                                                                -60,
+                                                                290,
+                                                                -60,
+                                                                290,
+                                                                0,
+                                                                295,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                295,
+                                                                0,
+                                                                385,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                385,
+                                                                0,
+                                                                395,
+                                                                0,
+                                                                385,
+                                                                -15,
+                                                                395,
+                                                                -15
+                                                            ],
+                                                            "type": "spline"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                395,
+                                                                -15,
+                                                                500,
+                                                                -15
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                500,
+                                                                -15,
+                                                                510,
+                                                                -15,
+                                                                500,
+                                                                0,
+                                                                510,
+                                                                0
+                                                            ],
+                                                            "type": "spline"
+                                                        }
+                                                    ]
+                                                },
+                                                "blend": "alpha",
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "filtering": false,
+                                                "frame": [
+                                                    18,
+                                                    18,
+                                                    15,
+                                                    34
+                                                ],
+                                                "image": {
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                                    "packerid": "108004_l_wing_2.png",
+                                                    "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                                    "uvs": [
+                                                        0.015625,
+                                                        0.4921875,
+                                                        0.1171875,
+                                                        0.265625
+                                                    ]
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "image_motion_right_wing_02_01",
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "name": "image_motion_left_wing_01",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.586666666666667,
+                                            0.88
+                                        ],
+                                        "anime": {
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        320,
+                                                        0,
+                                                        330,
+                                                        0,
+                                                        330,
+                                                        10,
+                                                        340,
+                                                        10
+                                                    ],
+                                                    "type": "spline"
+                                                },
+                                                {
+                                                    "point": [
+                                                        340,
+                                                        10,
+                                                        380,
+                                                        10
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        380,
+                                                        10,
+                                                        390,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -2.5,
+                                            -23,
+                                            11,
+                                            11
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.json",
+                                            "packerid": "108004_head.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/ability/60045/img_60045.png",
+                                            "uvs": [
+                                                0.1875,
+                                                0.3046875,
+                                                0.0859375,
+                                                0.0859375
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    -5,
+                                                    -5,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/60045/pb_60045_shot_1.json",
+                                                    "frame": 320
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    0.800000011920929,
+                                                    0.800000011920929
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "particle_thunder_02",
+                                            "type": "particle"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    -30,
+                                                    -5,
+                                                    64,
+                                                    64
+                                                ],
+                                                "particle": {
+                                                    "attractor": "",
+                                                    "file": "/Content/lang/ww/compile/en/ab/ability/60045/pb_60045_shot_2.json",
+                                                    "frame": 390
+                                                },
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    -90
+                                                ],
+                                                "scale": [
+                                                    0.800000011920929,
+                                                    0.800000011920929
+                                                ],
+                                                "visible": true
+                                            },
+                                            "name": "particle_thunder_03",
+                                            "type": "particle"
+                                        }
+                                    ],
+                                    "name": "image_motion_head",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 0,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "alpha": [
+                                                {
+                                                    "point": [
+                                                        520,
+                                                        0,
+                                                        530,
+                                                        1
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            0,
+                                            0,
+                                            96,
+                                            96
+                                        ],
+                                        "image": {
+                                            "url": "/Content/lang/ww/compile/en/ab/ability/60045/60045_w.png",
+                                            "uvs": [
+                                                0,
+                                                0,
+                                                1,
+                                                1
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "img_base_w",
+                                    "type": "image"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "chara_motion_nul",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    100,
+                                    -50,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/60045/pb_60045_shot.json",
+                                    "frame": 101
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "particle_thunder_01",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

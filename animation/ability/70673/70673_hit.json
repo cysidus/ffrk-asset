@@ -1,0 +1,197 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 1288,
+            "id": "se_battle_common_101060"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1290,
+            "id": "se_ability_00373"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 12900,
+            "id": "se_ability_00373"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1294,
+            "id": "se_battle_common_101026"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1340,
+            "id": "se_ability_00025"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 13400,
+            "id": "se_ability_00370"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1372,
+            "id": "se_ability_00371"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1373,
+            "id": "se_battle_common_101061"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1374,
+            "id": "se_ability_00580"
+        },
+        {
+            "actionName": "action_special_name_out",
+            "frame": 1421
+        },
+        {
+            "actionName": "action_next",
+            "frame": 1422
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 1432,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "reset"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "月 3月 9 11:38:54 2015",
+        "date": "金 3月 13 17:14:38 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1000,
+            1480,
+            0
+        ],
+        "temp_play": [
+            1280,
+            1500,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70673/pb_hit_cure.json",
+                                    "frame": 1288
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_cure",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

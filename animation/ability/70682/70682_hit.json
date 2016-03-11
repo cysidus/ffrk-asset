@@ -1,0 +1,507 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 1250,
+            "id": "se_ability_00021"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1300,
+            "id": "se_ability_00371"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1320,
+            "id": "se_ability_00370"
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 1334,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_special_name_out",
+            "frame": 1334
+        },
+        {
+            "actionName": "action_next",
+            "frame": 1335
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20150303_0",
+        "core_ver": "1.0",
+        "created_date": "火 4月 14 18:03:31 2015",
+        "date": "水 4月 15 15:30:18 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1250,
+            1450,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    225,
+                    180,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70682/pb_hit_heal.json",
+                                    "frame": 1250
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_heal_main",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    24.5828952789307,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70682/pb_hit_pink_aura.json",
+                                    "frame": 1250
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    2.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_heal_aura",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1250,
+                                                -21.464563369751,
+                                                1255.00366210938,
+                                                32.6282806396484,
+                                                1280,
+                                                40,
+                                                1300,
+                                                40
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1300,
+                                                40,
+                                                1320,
+                                                40,
+                                                1340.5546875,
+                                                34.4318351745605,
+                                                1350,
+                                                -21.464563369751
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1250,
+                                                19.957368850708,
+                                                1316.21911621094,
+                                                14.9534282684326,
+                                                1337.29321289062,
+                                                8.82133769989014,
+                                                1350,
+                                                -39.3023262023926
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -21.464563369751,
+                                    19.957368850708,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70682/pb_hit_ball.json",
+                                    "frame": 1250
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_heal_ball_01",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1250,
+                                                21,
+                                                1259.01782226562,
+                                                -16.0677375793457,
+                                                1275,
+                                                -30,
+                                                1295,
+                                                -30
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1295,
+                                                -30,
+                                                1315,
+                                                -30,
+                                                1342.81262207031,
+                                                -17.8712940216064,
+                                                1350,
+                                                21
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1250,
+                                                19.957368850708,
+                                                1270,
+                                                19.957368850708,
+                                                1340.05297851562,
+                                                7.37849235534668,
+                                                1350,
+                                                -39.3023262023926
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    21,
+                                    19.957368850708,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70682/pb_hit_ball.json",
+                                    "frame": 1250
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_heal_ball_02",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1270,
+                                                -21.464563369751,
+                                                1277.58312988281,
+                                                11.3463163375854,
+                                                1276.7421875,
+                                                24.5359878540039,
+                                                1318.37109375,
+                                                25
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1318.37109375,
+                                                25,
+                                                1360,
+                                                25.4640121459961,
+                                                1350.33911132812,
+                                                11.7070274353027,
+                                                1360.37451171875,
+                                                -30
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1270,
+                                                19.957368850708,
+                                                1302.67138671875,
+                                                16.3962726593018,
+                                                1351.34265136719,
+                                                -0.557155013084412,
+                                                1360,
+                                                -20.3962726593018
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -21.464563369751,
+                                    19.957368850708,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70682/pb_hit_ball.json",
+                                    "frame": 1250
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_heal_ball_03",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                25,
+                                                1289.01782226562,
+                                                -12.0677375793457,
+                                                1305,
+                                                -25,
+                                                1325,
+                                                -25
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1325,
+                                                -25,
+                                                1345,
+                                                -25,
+                                                1352.81262207031,
+                                                -8.87129402160645,
+                                                1360,
+                                                30
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1280,
+                                                19.957368850708,
+                                                1303.17321777344,
+                                                18.5605411529541,
+                                                1348.08117675781,
+                                                -2,
+                                                1360,
+                                                -20
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    25,
+                                    19.957368850708,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70682/pb_hit_ball.json",
+                                    "frame": 1250
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.400000005960465,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_heal_ball_04",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

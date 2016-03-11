@@ -1,0 +1,340 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 101,
+            "id": "se_ability_00570"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 101,
+            "id": "se_ability_00340"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 170,
+            "id": "se_ability_00430"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 235
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 259,
+            "layer": "layer_battle_field",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_special_name_out",
+            "frame": 259
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140627_0",
+        "core_ver": "1.0",
+        "created_date": "水 7月 23 15:05:16 2014",
+        "date": "月 9月 22 18:16:36 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            101,
+            260,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                214,
+                                                1,
+                                                216,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 0,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "alpha": [
+                                                {
+                                                    "point": [
+                                                        200,
+                                                        0,
+                                                        211,
+                                                        0.39215686917305
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "add",
+                                        "color": [
+                                            1,
+                                            1,
+                                            0.866666666666667
+                                        ],
+                                        "frame": [
+                                            160,
+                                            240,
+                                            2000,
+                                            2000
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.json",
+                                            "packerid": "dot.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_eff_01.png",
+                                            "uvs": [
+                                                0.4921875,
+                                                0.3828125,
+                                                0.078125,
+                                                0.078125
+                                            ]
+                                        },
+                                        "ninepatch": {
+                                            "bottom": 4,
+                                            "left": 5,
+                                            "right": 4,
+                                            "top": 5
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "flash_win_1",
+                                    "type": "window"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 0,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "anime": {
+                                            "alpha": [
+                                                {
+                                                    "point": [
+                                                        200,
+                                                        0,
+                                                        201,
+                                                        1
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        201,
+                                                        1,
+                                                        211,
+                                                        0
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "blend": "add",
+                                        "color": [
+                                            1,
+                                            0.988235294117647,
+                                            0.823529411764706
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            0,
+                                            -50,
+                                            146,
+                                            146
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.json",
+                                            "packerid": "eff_light_ghost01.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/effect_image/img_light_01.png",
+                                            "uvs": [
+                                                0.00390625,
+                                                0.00390625,
+                                                0.5703125,
+                                                0.5703125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            3,
+                                            3
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "image_light",
+                                    "type": "image"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "light_nul",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    5,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70391/pb_70391_hit.json",
+                                    "frame": 101
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.72000002861023,
+                                    0.72000002861023
+                                ],
+                                "visible": true
+                            },
+                            "name": "particle_hit",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

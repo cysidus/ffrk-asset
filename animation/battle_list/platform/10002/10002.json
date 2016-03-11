@@ -1,0 +1,902 @@
+{
+    "action": [],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20150303_0",
+        "core_ver": "1.0",
+        "created_date": "水 4月 22 18:27:30 2015",
+        "date": "木 8月 20 17:20:52 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 320,
+        "w": 480
+    },
+    "tag": {
+        "PLAY_ALL": [
+            0,
+            1000,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": false,
+                                "frame": [
+                                    0,
+                                    15,
+                                    609,
+                                    185
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                    "packerid": "bossunder.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                    "uvs": [
+                                        0.001953125,
+                                        0.0078125,
+                                        0.5947265625,
+                                        0.72265625
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "stage_boss_img",
+                            "type": "image"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "stage_boss",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": false,
+                                "frame": [
+                                    0,
+                                    20,
+                                    273,
+                                    185
+                                ],
+                                "image": {
+                                    "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                    "packerid": "segment_3.png",
+                                    "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                    "uvs": [
+                                        0.5986328125,
+                                        0.0078125,
+                                        0.2666015625,
+                                        0.72265625
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "stage_img",
+                            "type": "image"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "stage",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -148.075439453125,
+                                    75,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            110,
+                                            -80,
+                                            111,
+                                            50
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_a_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.001953125,
+                                                0.73828125,
+                                                0.1083984375,
+                                                0.1953125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_a_img_6",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            80,
+                                            -66,
+                                            111,
+                                            50
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_a_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.001953125,
+                                                0.73828125,
+                                                0.1083984375,
+                                                0.1953125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_a_img_5",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            50,
+                                            -52,
+                                            111,
+                                            50
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_a_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.001953125,
+                                                0.73828125,
+                                                0.1083984375,
+                                                0.1953125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_a_img_4",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            20,
+                                            -38,
+                                            111,
+                                            50
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_a_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.001953125,
+                                                0.73828125,
+                                                0.1083984375,
+                                                0.1953125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_a_img_3",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -10,
+                                            -24,
+                                            111,
+                                            50
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_a_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.001953125,
+                                                0.73828125,
+                                                0.1083984375,
+                                                0.1953125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_a_img_2",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            -40,
+                                            -10,
+                                            111,
+                                            50
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_a_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.001953125,
+                                                0.73828125,
+                                                0.1083984375,
+                                                0.1953125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_a_img_1",
+                                    "type": "image"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "bridge_aa",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "bridge_a",
+                    "type": "null"
+                },
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0,
+                            0
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -135.294021606445,
+                                    99.6850280761719,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            126,
+                                            -106,
+                                            88,
+                                            66
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_b_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.8671875,
+                                                0.0078125,
+                                                0.0859375,
+                                                0.2578125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_b_img_6",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            102,
+                                            -86,
+                                            88,
+                                            66
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_b_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.8671875,
+                                                0.0078125,
+                                                0.0859375,
+                                                0.2578125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_b_img_5",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            78,
+                                            -66,
+                                            88,
+                                            66
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_b_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.8671875,
+                                                0.0078125,
+                                                0.0859375,
+                                                0.2578125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_b_img_4",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            54,
+                                            -46,
+                                            88,
+                                            66
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_b_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.8671875,
+                                                0.0078125,
+                                                0.0859375,
+                                                0.2578125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_b_img_3",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            30,
+                                            -26,
+                                            88,
+                                            66
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_b_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.8671875,
+                                                0.0078125,
+                                                0.0859375,
+                                                0.2578125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_b_img_2",
+                                    "type": "image"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0
+                                        ],
+                                        "blend": "alpha",
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "filtering": false,
+                                        "frame": [
+                                            6,
+                                            -6,
+                                            88,
+                                            66
+                                        ],
+                                        "image": {
+                                            "file": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.json",
+                                            "packerid": "bridge_b_3.png",
+                                            "url": "/Content/lang/ww/compile/en/ab/battle_list/platform/10002/img_10002.png",
+                                            "uvs": [
+                                                0.8671875,
+                                                0.0078125,
+                                                0.0859375,
+                                                0.2578125
+                                            ]
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "bridge_b_img_1",
+                                    "type": "image"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "bridge_bb",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "bridge_b",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_parts",
+            "type": "null"
+        }
+    ]
+}

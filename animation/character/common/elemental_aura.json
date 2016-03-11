@@ -1,0 +1,668 @@
+{
+    "action": [
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "lightning_particle_01"
+        },
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "lightning_particle_02"
+        },
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "lightning_particle_03"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 101,
+            "node": "back_thunder_01",
+            "visible": "false"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 101,
+            "node": "back_thunder_02",
+            "visible": "false"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 101,
+            "node": "back_thunder_03",
+            "visible": "false"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1001,
+            "node": "lightning_particle_01"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 1001,
+            "node": "back_thunder_01",
+            "visible": "true"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1101,
+            "node": "lightning_particle_02"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 1101,
+            "node": "back_thunder_02",
+            "visible": "true"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1201,
+            "node": "lightning_particle_03"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 1201,
+            "node": "back_thunder_03",
+            "visible": "true"
+        },
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "fire_particle_01"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 101,
+            "node": "back_fire_01",
+            "visible": "false"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1501,
+            "node": "fire_particle_01"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 1501,
+            "node": "back_fire_01",
+            "visible": "true"
+        },
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "fire_particle_02"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 101,
+            "node": "back_fire_02",
+            "visible": "false"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1601,
+            "node": "fire_particle_02"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 1601,
+            "node": "back_fire_02",
+            "visible": "true"
+        },
+        {
+            "actionName": "action_suspendParticle",
+            "frame": 101,
+            "node": "fire_particle_03"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 101,
+            "node": "back_fire_03",
+            "visible": "false"
+        },
+        {
+            "actionName": "action_resumeParticle",
+            "frame": 1701,
+            "node": "fire_particle_03"
+        },
+        {
+            "actionName": "action_setVisible",
+            "frame": 1701,
+            "node": "back_fire_03",
+            "visible": "true"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20150609_0",
+        "core_ver": "1.0",
+        "created_date": "火 1月 28 15:32:36 2014",
+        "date": "水 9月 9 14:33:54 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "eff_fire_01": [
+            1501,
+            1510,
+            1
+        ],
+        "eff_fire_02": [
+            1601,
+            1610,
+            1
+        ],
+        "eff_fire_03": [
+            1701,
+            1710,
+            1
+        ],
+        "eff_thunder_01": [
+            1001,
+            1010,
+            1
+        ],
+        "eff_thunder_02": [
+            1101,
+            1110,
+            1
+        ],
+        "eff_thunder_03": [
+            1201,
+            1210,
+            1
+        ],
+        "stop": [
+            101,
+            110,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    247,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            1
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    1.9593505859375,
+                                    -8.98602294921875,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": false
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_thunder_01.json",
+                                            "frame": 1001
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "lightning_particle_01",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "back_thunder_01",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    1.9593505859375,
+                                    -8.98602294921875,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": false
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_thunder_02.json",
+                                            "frame": 1101
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1.04999995231628,
+                                            1.04999995231628
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "lightning_particle_02",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "back_thunder_02",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    1.9593505859375,
+                                    -8.98602294921875,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": false
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_thunder_03.json",
+                                            "frame": 1201
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1.20000004768372,
+                                            1.20000004768372
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "lightning_particle_03",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "back_thunder_03",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    1.9593505859375,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": false
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_fire_01.json",
+                                            "frame": 1501
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.800000011920929,
+                                            0.800000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "fire_particle_01",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "back_fire_01",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    1.9593505859375,
+                                    -2,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "visible": false
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_fire_02.json",
+                                            "frame": 1601
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "fire_particle_02",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "back_fire_02",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    1.9593505859375,
+                                    2,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": false
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/character/common/pb_fire_03.json",
+                                            "frame": 1701
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.899999976158142,
+                                            0.899999976158142
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "fire_particle_03",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "back_fire_03",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "character_elemental_aura",
+                    "type": "null"
+                }
+            ],
+            "isCreate": false,
+            "name": "base_visible",
+            "type": "null"
+        }
+    ]
+}
