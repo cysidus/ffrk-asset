@@ -1,0 +1,352 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 200
+        },
+        {
+            "actionName": "action_special_name_out",
+            "frame": 199
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 199,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "reset"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 120,
+            "id": "se_ability_00023"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140912_0",
+        "core_ver": "1.0",
+        "created_date": "水 9 24 15:46:16 2014",
+        "date": "金 3 6 21:55:07 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            60,
+            210,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    225.731338500977,
+                    179.72021484375,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    20,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_shot_pool_02.json",
+                                    "frame": 140
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.75,
+                                    0.200000002980232
+                                ],
+                                "visible": true
+                            },
+                            "name": "eff_pool",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_launch.json",
+                                            "frame": 130
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "full_care_01",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -35.9440612792969,
+                                            -4.93222093582153,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_launch.json",
+                                            "frame": 135
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.899999976158142,
+                                            0.899999976158142
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "full_care_02",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            29.8632965087891,
+                                            -6.89157152175903,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_launch.json",
+                                            "frame": 135
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.800000011920929,
+                                            0.800000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "full_care_03",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "ptcl_sc",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    0.792156862745098,
+                                    0.929411764705882,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70671/eff_particle_splash_2.json",
+                                    "frame": 150
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.699999988079071,
+                                    0.699999988079071
+                                ],
+                                "visible": true
+                            },
+                            "name": "eff_splash",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    0.792156862745098,
+                                    0.929411764705882,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70671/eff_particle_shiny_2.json",
+                                    "frame": 120
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.5,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "eff_shiny_2",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

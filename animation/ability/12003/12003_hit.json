@@ -1,0 +1,198 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 175
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00182"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 25,
+            "id": "se_ability_00182"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 105,
+            "id": "se_ability_00181"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 120,
+            "id": "se_ability_00181"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 50,
+            "id": "se_ability_00182"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 75,
+            "id": "se_ability_00182"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140627_0",
+        "core_ver": "1.0",
+        "created_date": "金 8 1 14:13:07 2014",
+        "date": "火 8 5 12:09:47 2014",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            192,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/12003/pb_12003_hit.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "hit_particle",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/12003/pb_12003_hit_1.json",
+                                    "frame": 100
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "hit_particle_1",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

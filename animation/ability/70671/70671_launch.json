@@ -1,0 +1,477 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 60,
+            "new_prop0": "data"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 91,
+            "id": "se_ability_00380"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 102,
+            "id": "se_ability_00390"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 135,
+            "id": "se_ability_00371"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 135,
+            "id": "se_ability_00372"
+        },
+        {
+            "actionName": "action_special_name_in",
+            "frame": 60
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 60,
+            "id": "se_ability_launch_100005"
+        },
+        {
+            "actionName": "action_playTag",
+            "autoRemove": "true",
+            "frame": 60,
+            "layer": "$(layer_battle_field)",
+            "node": "bg_color_win",
+            "tag": "bg_color_black"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140912_0",
+        "core_ver": "1.0",
+        "created_date": "金 8 29 12:01:04 2014",
+        "date": "金 3 6 21:53:45 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            60,
+            170,
+            0
+        ],
+        "play_1": [
+            90,
+            240,
+            1
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    226.677215576172,
+                    180.666107177734,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    15,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/effect_image/pb_lb_aura_big.json",
+                                    "frame": 60
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "ptcl_aura",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    -45,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_hit_2.json",
+                                            "frame": 110
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "green_ef",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_hit_1.json",
+                                            "frame": 91
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            90
+                                        ],
+                                        "scale": [
+                                            1,
+                                            0.300000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "blue_ring_01",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_hit_1.json",
+                                            "frame": 93
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            45
+                                        ],
+                                        "scale": [
+                                            1,
+                                            0.300000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "blue_ring_02",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_hit_1.json",
+                                            "frame": 93
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            135
+                                        ],
+                                        "scale": [
+                                            1,
+                                            0.300000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "blue_ring_03",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_70671_hit_1.json",
+                                            "frame": 91
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            180
+                                        ],
+                                        "scale": [
+                                            1,
+                                            0.300000011920929
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "blue_ring_04",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_all",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    -35,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70671/eff_particle_burst_1.json",
+                                    "frame": 70
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.600000023841858,
+                                    0.600000023841858
+                                ],
+                                "visible": true
+                            },
+                            "name": "eff_burst_1",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    18.9854736328125,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70671/pb_shot_pool.json",
+                                    "frame": 80
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.600000023841858,
+                                    0.200000002980232
+                                ],
+                                "visible": true
+                            },
+                            "name": "eff_pool_1",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    18.9854736328125,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/70671/eff_particle_shiny_2.json",
+                                    "frame": 60
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.5,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "eff_shiny_2",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_launch_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}
