@@ -1,0 +1,376 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 40
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00470"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 12,
+            "id": "se_ability_00470"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 35,
+            "id": "se_ability_00470"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140912_0",
+        "core_ver": "1.0",
+        "created_date": "金 2 6 18:46:20 2015",
+        "date": "月 3 2 16:38:01 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            90,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    111.885986328125,
+                    173.707061767578,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    0.556862745098039,
+                                    0.882352941176471,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50532/pb_50532_hit_2.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "visible": true
+                            },
+                            "name": "hit_particle_01",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                1,
+                                                15,
+                                                12,
+                                                -7
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                1,
+                                                -120,
+                                                12,
+                                                40
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    15,
+                                    -120,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50532/pb_50532_hit.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    -80
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "slide_particle_01",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    0.984313725490196,
+                                    1,
+                                    0.0431372549019608
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50532/pb_50532_hit_2.json",
+                                    "frame": 15
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "hit_particle_02",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                10,
+                                                -120,
+                                                21,
+                                                40
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                10,
+                                                18,
+                                                21,
+                                                -9
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    0.615686274509804,
+                                    1,
+                                    0.549019607843137
+                                ],
+                                "frame": [
+                                    -120,
+                                    18,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50532/pb_50532_hit.json",
+                                    "frame": 15
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    170
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "slide_particle_02",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                35,
+                                                80,
+                                                44,
+                                                -35
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    0.294117647058824,
+                                    0.0784313725490196
+                                ],
+                                "frame": [
+                                    0,
+                                    80,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50532/pb_50532_hit.json",
+                                    "frame": 35
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    90
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "slide_particle_03",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    0.63921568627451,
+                                    0.0549019607843137
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50532/pb_50532_hit_2.json",
+                                    "frame": 35
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.20000004768372,
+                                    1.20000004768372
+                                ],
+                                "visible": true
+                            },
+                            "name": "hit_particle_03",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

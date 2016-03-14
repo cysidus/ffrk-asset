@@ -1,0 +1,225 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 80
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 100,
+            "id": "se_ability_00311"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "金 2月 27 10:37:36 2015",
+        "date": "金 2月 27 11:30:23 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            80,
+            215,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                100,
+                                                -15,
+                                                110,
+                                                -15,
+                                                180.053329467773,
+                                                -32.917049407959,
+                                                180.053344726562,
+                                                -60
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -15,
+                                    15,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50535/pb_50535_shot_1.json",
+                                            "frame": 100
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            0.150000005960464
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "particle_Tornado_A_01",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50535/pb_50535_shot_2.json",
+                                            "frame": 105
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "particle_Tornado_B_01",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": false,
+                            "name": "Tornado_Null",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

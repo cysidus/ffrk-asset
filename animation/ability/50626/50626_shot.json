@@ -1,0 +1,175 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 1001,
+            "id": "se_ability_00170"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 1070
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1005,
+            "id": "se_ability_00320"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20140912_0",
+        "core_ver": "1.0",
+        "created_date": "木 4 2 22:13:11 2015",
+        "date": "木 4 2 22:49:35 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1001,
+            1145,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    143.972473144531,
+                    172.418807983398,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                996,
+                                                5,
+                                                1006,
+                                                5,
+                                                1058,
+                                                -20,
+                                                1068,
+                                                -20
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                1068,
+                                                -20,
+                                                1078,
+                                                -20,
+                                                1148,
+                                                30,
+                                                1158,
+                                                30
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    5,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50626/pb_shot_01.json",
+                                    "frame": 1001
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "particle_shot01",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

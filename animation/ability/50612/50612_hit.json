@@ -1,0 +1,316 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00600"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00720"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00201"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 60
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder2",
+        "app_ver": "20150303_0",
+        "core_ver": "1.0",
+        "created_date": "火 12月 9 14:04:49 2014",
+        "date": "水 4月 15 14:03:42 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            0,
+            100,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            3,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "anime": {
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                0,
+                                                0.5,
+                                                2,
+                                                0.5,
+                                                8,
+                                                1,
+                                                10,
+                                                1
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "scaleY": [
+                                        {
+                                            "point": [
+                                                0,
+                                                0.5,
+                                                2,
+                                                0.5,
+                                                8,
+                                                1,
+                                                10,
+                                                1
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    27,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50612/pb_hit_ground_back.json",
+                                            "frame": 0
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            0.800000011920929,
+                                            0.400000005960465
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "pb_hit_ground_back",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            60,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50612/pb_hit_werl.json",
+                                            "frame": 0
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "pb_hit_werl",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50612/pb_hit_ground_front.json",
+                                            "frame": 0
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            0.5
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "pb_hit_ground_front",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50612/pb_hit_front_twist.json",
+                                            "frame": 0
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "pb_hit_front_ywist",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_pb_pos",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

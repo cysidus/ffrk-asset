@@ -1,0 +1,233 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 40
+        },
+        {
+            "actionName": "action_play",
+            "frame": 1,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 2,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 3,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 4,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_play",
+            "frame": 5,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00230"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 5,
+            "id": "se_ability_00690"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 10,
+            "id": "se_ability_00193"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 20,
+            "id": "se_ability_00580"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 40,
+            "id": "se_battle_101045"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "火 12月 9 14:04:49 2014",
+        "date": "水 4月 22 19:07:10 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            80,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    8,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50652/pb_hit_2.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    0.400000005960465
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_hit_2",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50652/pb_hit.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_hit",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

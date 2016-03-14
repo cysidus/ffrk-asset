@@ -1,0 +1,329 @@
+{
+    "action": [
+        {
+            "": "",
+            "actionName": "action_next",
+            "frame": 40
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 70,
+            "id": "se_ability_00580"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 70,
+            "id": "se_ability_00680"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00341"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "木 6月 26 11:45:03 2014",
+        "date": "水 5月 20 14:56:15 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            300,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            21,
+                            -104,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -11.8237047195435,
+                                    4.95468139648438,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50675/pb_launch_twinkle.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "launch_twinkle",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "rotZ": [
+                                        {
+                                            "point": [
+                                                70,
+                                                0,
+                                                90,
+                                                0,
+                                                80,
+                                                -80,
+                                                100,
+                                                -80
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                100,
+                                                -80,
+                                                120,
+                                                -80,
+                                                150,
+                                                0,
+                                                170,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                170,
+                                                0,
+                                                190,
+                                                0,
+                                                220,
+                                                -80,
+                                                240,
+                                                -80
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                240,
+                                                -80,
+                                                260,
+                                                -80,
+                                                280,
+                                                0,
+                                                300,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -28,
+                                    5,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50675/pb_shot_smoke_green.json",
+                                    "frame": 70
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_green_particle",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "rotZ": [
+                                        {
+                                            "point": [
+                                                70,
+                                                0,
+                                                90,
+                                                0,
+                                                80,
+                                                80,
+                                                100,
+                                                80
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                100,
+                                                80,
+                                                120,
+                                                80,
+                                                140,
+                                                0,
+                                                160,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                160,
+                                                0,
+                                                180,
+                                                0,
+                                                210,
+                                                80,
+                                                230,
+                                                80
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                230,
+                                                80,
+                                                250,
+                                                80,
+                                                280,
+                                                0,
+                                                300,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -9,
+                                    6,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50675/pb_shot_smoke_yellow.json",
+                                    "frame": 70
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_yellow_particle",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_launch_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

@@ -1,0 +1,942 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 1021
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1020,
+            "id": "se_battle_101045"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "木 1月 23 17:32:58 2014",
+        "date": "月 6月 15 10:13:45 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1001,
+            1080,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0.5,
+                    0.5
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            4,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -50,
+                                    20,
+                                    0,
+                                    0
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50712/pb_hit_snake.json",
+                                            "frame": 1001
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "snake_particle",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 0,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "alpha": [
+                                                        {
+                                                            "point": [
+                                                                1011,
+                                                                0,
+                                                                1012,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1012,
+                                                                1,
+                                                                1030,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1030,
+                                                                1,
+                                                                1031,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.163636363636364,
+                                                            0.2
+                                                        ],
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            2,
+                                                            -3,
+                                                            34,
+                                                            34
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.json",
+                                                            "packerid": "snake_03.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.png",
+                                                            "uvs": [
+                                                                0.03125,
+                                                                0.015625,
+                                                                0.53125,
+                                                                0.265625
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            290
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "snake_frame1_image",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "snake_frame1_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 0,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "alpha": [
+                                                        {
+                                                            "point": [
+                                                                1011,
+                                                                0,
+                                                                1012,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1012,
+                                                                1,
+                                                                1030,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1030,
+                                                                1,
+                                                                1031,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.0851063829787234,
+                                                            0.472727272727273
+                                                        ],
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            30,
+                                                            -17,
+                                                            24,
+                                                            14
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.json",
+                                                            "packerid": "snake_04.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.png",
+                                                            "uvs": [
+                                                                0.59375,
+                                                                0.015625,
+                                                                0.375,
+                                                                0.109375
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "snake_frame2_image",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "snake_frame2_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 0,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "alpha": [
+                                                        {
+                                                            "point": [
+                                                                1030,
+                                                                0,
+                                                                1031,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1031,
+                                                                1,
+                                                                1034,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1034,
+                                                                1,
+                                                                1035,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.1875,
+                                                            0.127272727272727
+                                                        ],
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            -2,
+                                                            -3,
+                                                            21,
+                                                            24
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.json",
+                                                            "packerid": "snake_01.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.png",
+                                                            "uvs": [
+                                                                0.59375,
+                                                                0.140625,
+                                                                0.328125,
+                                                                0.1875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            270
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "snake_frame3_image",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "snake_frame3_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 0,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "alpha": [
+                                                        {
+                                                            "point": [
+                                                                1034,
+                                                                0,
+                                                                1035,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1035,
+                                                                1,
+                                                                1038,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1038,
+                                                                1,
+                                                                1039,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.130434782608696,
+                                                            0.854545454545454
+                                                        ],
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            -2,
+                                                            -4,
+                                                            33,
+                                                            39
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.json",
+                                                            "packerid": "snake_02.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.png",
+                                                            "uvs": [
+                                                                0.03125,
+                                                                0.296875,
+                                                                0.515625,
+                                                                0.3046875
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            310
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "snake_frame4_image",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "snake_frame4_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 0,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "alpha": [
+                                                        {
+                                                            "point": [
+                                                                1038,
+                                                                0,
+                                                                1039,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1039,
+                                                                1,
+                                                                1042,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1042,
+                                                                1,
+                                                                1043,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.727272727272727,
+                                                            0.0909090909090909
+                                                        ],
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            0,
+                                                            -3,
+                                                            18,
+                                                            44
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.json",
+                                                            "packerid": "snake_05.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.png",
+                                                            "uvs": [
+                                                                0.03125,
+                                                                0.6171875,
+                                                                0.28125,
+                                                                0.34375
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            155
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "snake_frame5_image",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "snake_frame5_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 0,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "anime": {
+                                                    "alpha": [
+                                                        {
+                                                            "point": [
+                                                                1042,
+                                                                0,
+                                                                1043,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1043,
+                                                                1,
+                                                                1046,
+                                                                1
+                                                            ],
+                                                            "type": "liner"
+                                                        },
+                                                        {
+                                                            "point": [
+                                                                1046,
+                                                                1,
+                                                                1047,
+                                                                0
+                                                            ],
+                                                            "type": "liner"
+                                                        }
+                                                    ]
+                                                },
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "anchor": [
+                                                            0.854545454545454,
+                                                            0.181818181818182
+                                                        ],
+                                                        "blend": "alpha",
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "filtering": false,
+                                                        "frame": [
+                                                            1,
+                                                            0,
+                                                            29,
+                                                            29
+                                                        ],
+                                                        "image": {
+                                                            "file": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.json",
+                                                            "packerid": "snake_06.png",
+                                                            "url": "/Content/lang/ww/compile/en/ab/ability/50712/img_snake.png",
+                                                            "uvs": [
+                                                                0.34375,
+                                                                0.6171875,
+                                                                0.453125,
+                                                                0.2265625
+                                                            ]
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            158
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "snake_frame6_image",
+                                                    "type": "image"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "snake_frame6_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "isCreate": true,
+                                            "name": "snake_frame7_nul",
+                                            "type": "null"
+                                        },
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0.5,
+                                                    0.5
+                                                ],
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "isCreate": true,
+                                            "name": "snake_frame8_nul",
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "snake_body_nul",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "hit_snake_pos_nul",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

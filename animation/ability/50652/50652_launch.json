@@ -1,0 +1,230 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 150
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00471"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 10,
+            "id": "se_ability_00492"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 60,
+            "id": "se_ability_00501"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 63,
+            "id": "se_ability_00510"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 65,
+            "id": "se_ability_00520"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 70,
+            "id": "se_ability_00720"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "火 12月 9 14:04:49 2014",
+        "date": "水 4月 22 19:01:23 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            290,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            17,
+                            -120,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            18
+                        ],
+                        "scale": [
+                            -1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    15,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50652/pb_launch_beam.json",
+                                    "frame": 50
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_beam",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                230,
+                                                1,
+                                                230.524597167969,
+                                                1.57188951969147,
+                                                239,
+                                                2.20000004768372,
+                                                240,
+                                                2.20000004768372
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "scaleY": [
+                                        {
+                                            "point": [
+                                                230,
+                                                1,
+                                                232.766464233398,
+                                                0.910368621349335,
+                                                239.747940063477,
+                                                0.449078351259232,
+                                                240,
+                                                0
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    2,
+                                    14,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50652/pb_launch_charge.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_charge",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_launch_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

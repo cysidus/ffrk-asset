@@ -1,0 +1,346 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 1
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1,
+            "id": "se_ability_00520"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "火 12月 9 14:04:49 2014",
+        "date": "火 4月 7 19:03:36 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            200,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    -1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            3,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1,
+                                                0,
+                                                30,
+                                                0.39215686917305
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                30,
+                                                0.39215686917305,
+                                                120,
+                                                0.39215686917305
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                120,
+                                                0.39215686917305,
+                                                150,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "alpha",
+                                "color": [
+                                    0.32156862745098,
+                                    0.470588235294118,
+                                    0.666666666666667
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    0,
+                                    0,
+                                    4,
+                                    4
+                                ],
+                                "image": {
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/white.png",
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    200,
+                                    200
+                                ],
+                                "visible": true
+                            },
+                            "name": "blue_image",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -95,
+                                    -200,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50621/pb_shot_ripple.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.5,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_particle",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    110,
+                                    -80,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50621/pb_shot_ripple.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.5,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_particle_01",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -150,
+                                    60,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50621/pb_shot_ripple.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.5,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_particle_01_01",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    90,
+                                    150,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50621/pb_shot_ripple.json",
+                                    "frame": 1
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1.5,
+                                    1.5
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_particle_01_02",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50621/pb_shot_ripple_glare.json",
+                                    "frame": 11
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "shot_glare_particle",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

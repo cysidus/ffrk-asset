@@ -1,0 +1,484 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 1010
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 951,
+            "id": "se_ability_00170"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1001,
+            "id": "se_ability_00451"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 1001,
+            "id": "se_ability_10091"
+        },
+        {
+            "actionName": "action_playTag",
+            "frame": 1001,
+            "isPlayChild": "false",
+            "layer": "$(layer_battle_field)",
+            "node": "shake_part_nul",
+            "tag": "shake_single"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "木 1月 23 17:32:58 2014",
+        "date": "月 5月 18 09:40:15 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            951,
+            1070,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    160,
+                    240,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    1
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1000,
+                                                0,
+                                                1001,
+                                                0.39215686917305
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1001,
+                                                0.39215686917305,
+                                                1070,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "alpha",
+                                "color": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    0,
+                                    20,
+                                    32,
+                                    180
+                                ],
+                                "image": {
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_sirosikaku.png",
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "beam_image",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    1
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1000,
+                                                0,
+                                                1001,
+                                                0.196078434586525
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1001,
+                                                0.196078434586525,
+                                                1030,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                1001,
+                                                1,
+                                                1030,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    0,
+                                    20,
+                                    32,
+                                    180
+                                ],
+                                "image": {
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_sirosikaku.png",
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "beam_image_add",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    1
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1005,
+                                                0,
+                                                1006,
+                                                0.39215686917305
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1006,
+                                                0.39215686917305,
+                                                1035,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                1006,
+                                                1,
+                                                1035,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    0,
+                                    20,
+                                    32,
+                                    180
+                                ],
+                                "image": {
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_sirosikaku.png",
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "beam_image_add_01",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 0,
+                                "anchor": [
+                                    0.5,
+                                    1
+                                ],
+                                "anime": {
+                                    "alpha": [
+                                        {
+                                            "point": [
+                                                1015,
+                                                0,
+                                                1016,
+                                                0.196078434586525
+                                            ],
+                                            "type": "liner"
+                                        },
+                                        {
+                                            "point": [
+                                                1016,
+                                                0.196078434586525,
+                                                1045,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "scaleX": [
+                                        {
+                                            "point": [
+                                                1016,
+                                                1,
+                                                1045,
+                                                0
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ]
+                                },
+                                "blend": "add",
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "filtering": true,
+                                "frame": [
+                                    0,
+                                    20,
+                                    32,
+                                    180
+                                ],
+                                "image": {
+                                    "url": "/Content/lang/ww/compile/en/ab/effect_image/img_sirosikaku.png",
+                                    "uvs": [
+                                        0,
+                                        0,
+                                        1,
+                                        1
+                                    ]
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "beam_image_add_01_01",
+                            "type": "image"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    6,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50676/pb_hit_attack.json",
+                                    "frame": 1001
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "hit_aura_particle",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -120,
+                                    20,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50676/pb_hit_ground.json",
+                                    "frame": 951
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "hit_ground_particle",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_hit_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

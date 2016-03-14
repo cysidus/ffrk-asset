@@ -1,0 +1,408 @@
+{
+    "action": [
+        {
+            "actionName": "action_sound",
+            "frame": 2022,
+            "id": "se_ability_00570"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 2100,
+            "id": "se_ability_00420"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 2110,
+            "id": "se_ability_00280"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 2140,
+            "id": "se_ability_00020"
+        },
+        {
+            "actionName": "action_next",
+            "frame": 2200
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "火 12月 9 14:04:49 2014",
+        "date": "月 2月 23 21:48:38 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            2001,
+            2270,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    226.67724609375,
+                    191.611663818359,
+                    0,
+                    0
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            3,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    -2,
+                                    -10,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50565/pb_hand_fx.json",
+                                    "frame": 2100
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_hand_fx",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                2128,
+                                                0,
+                                                2158,
+                                                0,
+                                                2128,
+                                                -1,
+                                                2158,
+                                                -1
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                2130,
+                                                0,
+                                                2160,
+                                                0,
+                                                2128,
+                                                5.09999990463257,
+                                                2158,
+                                                5.09999990463257
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -95,
+                                            -25,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50565/pb_rod_fx.json",
+                                            "frame": 2110
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "pb_rod_fx",
+                                    "type": "particle"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "nul_rod_fx",
+                            "type": "null"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50565/pb_line_fx.json",
+                                    "frame": 2105
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_fx_line",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    0,
+                                    0,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50565/pb_hand_wave.json",
+                                    "frame": 2100
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    0.5,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_hand_wave",
+                            "type": "particle"
+                        },
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anime": {
+                                    "posX": [
+                                        {
+                                            "point": [
+                                                2013,
+                                                15,
+                                                2023,
+                                                15,
+                                                2085,
+                                                12,
+                                                2095,
+                                                12
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                2095,
+                                                12,
+                                                2100,
+                                                12
+                                            ],
+                                            "type": "liner"
+                                        }
+                                    ],
+                                    "posY": [
+                                        {
+                                            "point": [
+                                                2013,
+                                                -27,
+                                                2023,
+                                                -27,
+                                                2085,
+                                                -33,
+                                                2095,
+                                                -33
+                                            ],
+                                            "type": "spline"
+                                        },
+                                        {
+                                            "point": [
+                                                2095,
+                                                -33,
+                                                2100,
+                                                -33,
+                                                2095,
+                                                -6,
+                                                2100,
+                                                -6
+                                            ],
+                                            "type": "spline"
+                                        }
+                                    ]
+                                },
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    15,
+                                    -27,
+                                    64,
+                                    64
+                                ],
+                                "particle": {
+                                    "attractor": "",
+                                    "file": "/Content/lang/ww/compile/en/ab/ability/50565/pb_hand_charge.json",
+                                    "frame": 2022
+                                },
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "name": "pb_hand_charge",
+                            "type": "particle"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_shot_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}

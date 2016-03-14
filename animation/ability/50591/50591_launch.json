@@ -1,0 +1,359 @@
+{
+    "action": [
+        {
+            "actionName": "action_next",
+            "frame": 52
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 50,
+            "id": "se_ability_10010"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 89,
+            "id": "se_ability_00670"
+        },
+        {
+            "actionName": "action_sound",
+            "frame": 126,
+            "id": "se_ability_10010"
+        }
+    ],
+    "fps": 60,
+    "meta": {
+        "app": "AnimationBuilder",
+        "app_ver": "20141031_0",
+        "core_ver": "1.0",
+        "created_date": "月 11月 10 16:13:10 2014",
+        "date": "金 1月 30 22:21:53 2015",
+        "runtime_type": "cocos2d-x",
+        "runtime_ver": "2.1.4",
+        "ver": "0.05"
+    },
+    "screenSize": {
+        "h": 480,
+        "w": 320
+    },
+    "tag": {
+        "play": [
+            1,
+            200,
+            0
+        ]
+    },
+    "tree": [
+        {
+            "attrs": {
+                "alpha": 1,
+                "anchor": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1,
+                    1,
+                    1
+                ],
+                "frame": [
+                    0,
+                    0,
+                    64,
+                    64
+                ],
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "alpha": 1,
+                        "anchor": [
+                            0.5,
+                            0.5
+                        ],
+                        "color": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "frame": [
+                            0,
+                            0,
+                            64,
+                            64
+                        ],
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            1,
+                            1
+                        ],
+                        "visible": true
+                    },
+                    "children": [
+                        {
+                            "attrs": {
+                                "alpha": 1,
+                                "anchor": [
+                                    0,
+                                    0
+                                ],
+                                "color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "frame": [
+                                    64,
+                                    -60,
+                                    64,
+                                    64
+                                ],
+                                "rotation": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    1,
+                                    1
+                                ],
+                                "visible": true
+                            },
+                            "children": [
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            0,
+                                            0,
+                                            64,
+                                            64
+                                        ],
+                                        "particle": {
+                                            "attractor": "",
+                                            "file": "/Content/lang/ww/compile/en/ab/ability/50591/pb_launch_slash.json",
+                                            "frame": 1
+                                        },
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "name": "launch_particle_slash",
+                                    "type": "particle"
+                                },
+                                {
+                                    "attrs": {
+                                        "alpha": 1,
+                                        "anchor": [
+                                            0,
+                                            0
+                                        ],
+                                        "anime": {
+                                            "posX": [
+                                                {
+                                                    "point": [
+                                                        89,
+                                                        -60,
+                                                        90,
+                                                        -79
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        90,
+                                                        -79,
+                                                        92,
+                                                        -70
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        92,
+                                                        -70,
+                                                        99,
+                                                        -69
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ],
+                                            "posY": [
+                                                {
+                                                    "point": [
+                                                        89,
+                                                        -15,
+                                                        90,
+                                                        -11
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        90,
+                                                        -11,
+                                                        92,
+                                                        -8
+                                                    ],
+                                                    "type": "liner"
+                                                },
+                                                {
+                                                    "point": [
+                                                        92,
+                                                        -8,
+                                                        99,
+                                                        20
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ],
+                                            "rotZ": [
+                                                {
+                                                    "point": [
+                                                        89,
+                                                        -115,
+                                                        99,
+                                                        130
+                                                    ],
+                                                    "type": "liner"
+                                                }
+                                            ]
+                                        },
+                                        "color": [
+                                            1,
+                                            1,
+                                            1
+                                        ],
+                                        "frame": [
+                                            -60,
+                                            -15,
+                                            64,
+                                            64
+                                        ],
+                                        "rotation": [
+                                            0,
+                                            0,
+                                            -115
+                                        ],
+                                        "scale": [
+                                            1,
+                                            1
+                                        ],
+                                        "visible": true
+                                    },
+                                    "children": [
+                                        {
+                                            "attrs": {
+                                                "alpha": 1,
+                                                "anchor": [
+                                                    0,
+                                                    0
+                                                ],
+                                                "color": [
+                                                    1,
+                                                    1,
+                                                    1
+                                                ],
+                                                "frame": [
+                                                    80,
+                                                    0,
+                                                    64,
+                                                    64
+                                                ],
+                                                "rotation": [
+                                                    0,
+                                                    0,
+                                                    0
+                                                ],
+                                                "scale": [
+                                                    1,
+                                                    1
+                                                ],
+                                                "visible": true
+                                            },
+                                            "children": [
+                                                {
+                                                    "attrs": {
+                                                        "alpha": 1,
+                                                        "color": [
+                                                            1,
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "frame": [
+                                                            -5,
+                                                            -11,
+                                                            64,
+                                                            64
+                                                        ],
+                                                        "particle": {
+                                                            "attractor": "",
+                                                            "file": "/Content/lang/ww/compile/en/ab/ability/50591/pb_launch_gunshot.json",
+                                                            "frame": 1
+                                                        },
+                                                        "rotation": [
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "scale": [
+                                                            1,
+                                                            1
+                                                        ],
+                                                        "visible": true
+                                                    },
+                                                    "name": "launch_particle_gun",
+                                                    "type": "particle"
+                                                }
+                                            ],
+                                            "isCreate": true,
+                                            "name": "gun_effect_nul",
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "isCreate": true,
+                                    "name": "gun_rotate_nul",
+                                    "type": "null"
+                                }
+                            ],
+                            "isCreate": true,
+                            "name": "launch_pos_nul",
+                            "type": "null"
+                        }
+                    ],
+                    "isCreate": true,
+                    "name": "ability_launch_nul",
+                    "type": "null"
+                }
+            ],
+            "isCreate": true,
+            "name": "visible_nul",
+            "type": "null"
+        }
+    ]
+}
